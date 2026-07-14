@@ -29,7 +29,7 @@ export const Route = createFileRoute("/services/physical-security")({
         { title: "Intrusion detection", body: "Door, glass-break, and motion sensors tied to a monitored response protocol you define." },
         { title: "Integrated with IT", body: "Cameras and access panels ride your network with the security posture our team already manages." },
         { title: "Compliance &amp; retention", body: "Configurable retention windows and access logs to meet insurance, legal, and privacy requirements." },
-        { title: "One partner, one bill", body: "Design, cabling, install, activation, monitoring, and warranty — through Black Mountain, end to end." },
+        { title: "One partner, one bill", body: "Design, cabling, install, activation, monitoring, and warranty — through Black Mountain Digital, end to end." },
       ]}
       capabilities={[
         "Site walkthrough &amp; camera coverage design",

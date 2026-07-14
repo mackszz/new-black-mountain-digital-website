@@ -97,7 +97,7 @@ function Home() {
       <section className="container-page py-20 md:py-28">
         <div className="grid gap-12 lg:grid-cols-3">
           <div>
-            <div className="text-xs uppercase tracking-widest text-peak mb-3">Why Black Mountain</div>
+            <div className="text-xs uppercase tracking-widest text-peak mb-3">Why Black Mountain Digital</div>
             <h2 className="text-3xl md:text-5xl font-display font-semibold leading-tight">
               One partner. Every layer of your technology stack.
             </h2>

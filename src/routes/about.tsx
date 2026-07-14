@@ -95,7 +95,7 @@ function About() {
         <div className="text-xs uppercase tracking-widest text-peak mb-3">Leadership</div>
         <h2 className="text-3xl md:text-4xl font-display font-semibold max-w-2xl">The team behind the platform.</h2>
         <p className="mt-4 text-slate-body max-w-2xl">
-          Engineers, network architects, security specialists, and account leads — most with more than a decade at Black Mountain. Team photos and bios coming soon.
+          Engineers, network architects, security specialists, and account leads — most with more than a decade at Black Mountain Digital. Team photos and bios coming soon.
         </p>
         <div className="mt-10 grid gap-4 sm:grid-cols-2 md:grid-cols-4">
           {["Executive Team", "Engineering", "Security Practice", "Client Success"].map((role) => (
