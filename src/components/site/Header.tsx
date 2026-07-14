@@ -42,7 +42,7 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur">
       <div className="container-page flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-2" aria-label="Black Mountain Digital home">
-          <Logo className="h-7 w-auto" />
+          <Logo className="h-11 w-auto" />
         </Link>
 
         <nav aria-label="Primary" className="hidden lg:flex items-center gap-1">
