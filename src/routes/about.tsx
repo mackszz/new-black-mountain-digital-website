@@ -91,23 +91,6 @@ function About() {
         </div>
       </section>
 
-      <section className="container-page py-20">
-        <div className="text-xs uppercase tracking-widest text-peak mb-3">Leadership</div>
-        <h2 className="text-3xl md:text-4xl font-display font-semibold max-w-2xl">The team behind the platform.</h2>
-        <p className="mt-4 text-slate-body max-w-2xl">
-          Engineers, network architects, security specialists, and account leads — most with more than a decade at Black Mountain Digital. Team photos and bios coming soon.
-        </p>
-        <div className="mt-10 grid gap-4 sm:grid-cols-2 md:grid-cols-4">
-          {["Executive Team", "Engineering", "Security Practice", "Client Success"].map((role) => (
-            <div key={role} className="aspect-[4/5] bg-stone rounded-md flex items-end p-4">
-              <div>
-                <div className="text-xs uppercase tracking-widest text-slate-body">Placeholder</div>
-                <div className="font-display font-semibold">{role}</div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
 
       <CTABand
         title="Work with a partner who's been here since 1996."
