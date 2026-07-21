@@ -5,8 +5,9 @@ export const Route = createFileRoute("/services/business-broadband")({
   head: () => ({
     meta: [
       { title: "Business Broadband & Internet | Canadian Carrier Services" },
-      { name: "description", content: "Dedicated fiber, DIA, and business-grade broadband across Canada — SLA-backed, redundant, and sourced from the carrier that fits your site, not the one we're locked to." },
+      { name: "description", content: "Dedicated fiber, DIA, and business broadband across Canada — SLA-backed, redundant, and sourced from the right carrier for each site." },
       { property: "og:title", content: "Business Broadband & Internet | Canadian Carrier Services" },
+      { property: "og:description", content: "Vendor-agnostic business internet with enforceable SLAs, diverse-path failover, and one bill across every Canadian carrier." },
       { property: "og:url", content: "/services/business-broadband" },
     ],
     links: [{ rel: "canonical", href: "/services/business-broadband" }],

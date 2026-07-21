@@ -9,6 +9,7 @@ export const Route = createFileRoute("/contact")({
       { title: "Contact Black Mountain Digital | Talk to a Canadian Expert" },
       { name: "description", content: "Reach a Canadian technology specialist for AI, security, voice, connectivity, or cabling. Call, email, or send us a message — we reply within one business day." },
       { property: "og:title", content: "Contact Black Mountain Digital | Talk to a Canadian Expert" },
+      { property: "og:description", content: "Reach a Canadian technology specialist. Call, email, or send a message — we respond within one business day, with 24/7 support for existing clients." },
       { property: "og:url", content: "/contact" },
     ],
     links: [{ rel: "canonical", href: "/contact" }],

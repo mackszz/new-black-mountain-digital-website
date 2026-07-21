@@ -7,6 +7,7 @@ export const Route = createFileRoute("/services/sd-wan")({
       { title: "SD-WAN Provider for Multi-Site Canadian Businesses" },
       { name: "description", content: "Managed SD-WAN that unifies branch offices, cloud, and remote workers on one policy-driven network — with security, QoS, and failover built in." },
       { property: "og:title", content: "SD-WAN Provider for Multi-Site Canadian Businesses" },
+      { property: "og:description", content: "Managed SD-WAN unifying branches, cloud, and remote workers on one policy-driven network with security, QoS, and failover built in." },
       { property: "og:url", content: "/services/sd-wan" },
     ],
     links: [{ rel: "canonical", href: "/services/sd-wan" }],

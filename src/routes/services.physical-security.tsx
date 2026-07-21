@@ -5,8 +5,9 @@ export const Route = createFileRoute("/services/physical-security")({
   head: () => ({
     meta: [
       { title: "Physical Security Systems | Access Control & Surveillance" },
-      { name: "description", content: "IP video surveillance, cloud access control, and intrusion detection for Canadian businesses — designed, installed, and monitored by a single accountable partner." },
+      { name: "description", content: "IP video surveillance, cloud access control, and intrusion detection for Canadian businesses — designed, installed, and monitored end to end." },
       { property: "og:title", content: "Physical Security Systems | Access Control & Surveillance" },
+      { property: "og:description", content: "IP cameras, cloud access control, and intrusion detection — one partner from site survey through 24/7 monitoring." },
       { property: "og:url", content: "/services/physical-security" },
     ],
     links: [{ rel: "canonical", href: "/services/physical-security" }],

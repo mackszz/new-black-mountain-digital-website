@@ -5,8 +5,9 @@ export const Route = createFileRoute("/services/data-cabling")({
   head: () => ({
     meta: [
       { title: "Structured Cabling Contractor Ontario | Data Cabling Services" },
-      { name: "description", content: "Certified structured cabling, fiber optic, and cable management for offices, data centers, and retrofits across Ontario and Canada — installed and tested to standard." },
+      { name: "description", content: "Certified structured cabling, fiber optic, and cable management for offices, data centers, and retrofits across Ontario and Canada." },
       { property: "og:title", content: "Structured Cabling Contractor Ontario | Data Cabling Services" },
+      { property: "og:description", content: "TIA/EIA-certified cabling and fiber install for offices, data centers, and retrofits — tested, documented, warrantied." },
       { property: "og:url", content: "/services/data-cabling" },
     ],
     links: [{ rel: "canonical", href: "/services/data-cabling" }],

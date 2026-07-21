@@ -7,6 +7,7 @@ export const Route = createFileRoute("/services/ai-customer-service-rep")({
       { title: "AI Customer Service Rep | Black Mountain Digital" },
       { name: "description", content: "AI customer service automation that handles tickets, chats, and calls 24/7 — trained on your data, integrated with your stack, deployed by a Canadian partner." },
       { property: "og:title", content: "AI Customer Service Rep | Black Mountain Digital" },
+      { property: "og:description", content: "AI customer service across chat, email, and voice — trained on your data, integrated with your stack, deployed by a Canadian partner." },
       { property: "og:url", content: "/services/ai-customer-service-rep" },
     ],
     links: [{ rel: "canonical", href: "/services/ai-customer-service-rep" }],
