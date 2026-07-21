@@ -100,7 +100,7 @@ export function ServicePage(p: ServicePageProps) {
                   <div className="font-display font-semibold text-lg">{r.label}</div>
                   <p className="mt-2 text-slate-body text-sm">{r.desc}</p>
                   <div className="mt-4 text-peak text-sm inline-flex items-center gap-1">
-                    Learn more <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-0.5 transition-transform" />
+                    Explore {r.label} <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-0.5 transition-transform" />
                   </div>
                 </Link>
               ))}
