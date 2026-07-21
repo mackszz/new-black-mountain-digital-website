@@ -7,6 +7,7 @@ export const Route = createFileRoute("/services/ucaas")({
       { title: "UCaaS | Business VoIP Provider Canada | Black Mountain Digital" },
       { name: "description", content: "Unified voice, video, and messaging on one platform. Cloud-hosted, carrier-grade, deployed by a Canadian VoIP provider with three decades of telecom roots." },
       { property: "og:title", content: "UCaaS | Business VoIP Provider Canada" },
+      { property: "og:description", content: "Cloud-hosted business phone system unifying calling, meetings, chat, and SMS — with the reliability of a telecom operator since 1996." },
       { property: "og:url", content: "/services/ucaas" },
     ],
     links: [{ rel: "canonical", href: "/services/ucaas" }],

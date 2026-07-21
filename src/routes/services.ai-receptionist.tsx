@@ -7,6 +7,7 @@ export const Route = createFileRoute("/services/ai-receptionist")({
       { title: "AI Receptionist for Small Business | Black Mountain Digital" },
       { name: "description", content: "An AI receptionist that answers every call, qualifies the caller, books appointments, and routes to the right person — no more voicemail, no missed leads." },
       { property: "og:title", content: "AI Receptionist for Small Business | Black Mountain Digital" },
+      { property: "og:description", content: "Natural-voice AI that answers every call, qualifies the caller, books appointments, and routes to the right person — no voicemail, no missed leads." },
       { property: "og:url", content: "/services/ai-receptionist" },
     ],
     links: [{ rel: "canonical", href: "/services/ai-receptionist" }],

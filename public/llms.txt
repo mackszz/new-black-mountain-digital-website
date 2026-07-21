@@ -1,0 +1,28 @@
+# Black Mountain Digital
+
+> Canadian technology partner since 1996 — one accountable team for AI, security, voice, connectivity, and structured cabling, serving SMBs and mid-market businesses across Ontario and Canada.
+
+Black Mountain Digital consolidates the vendors a growing business would otherwise juggle. We design, deploy, and support five practice areas end to end — AI Services, Security, Voice, Connectivity, and Data Cabling — under one contract and one 24/7 support line.
+
+## Pages
+
+- [Home](/): Overview of the five service pillars and how we work.
+- [About](/about): Company history, mission, and values — from telecom roots in 1996 to today.
+- [Contact](/contact): Reach a Canadian specialist by phone, email, or form.
+
+## Services
+
+- [AI Customer Service Rep](/services/ai-customer-service-rep): 24/7 AI support across chat, email, and voice, trained on your data.
+- [AI Receptionist](/services/ai-receptionist): Natural-voice AI that answers, qualifies, books, and routes every inbound call.
+- [Network & Cyber Security](/services/network-cyber-security): Managed firewall, EDR, and 24/7 SOC monitoring aligned to PIPEDA.
+- [Physical Security](/services/physical-security): IP video surveillance, cloud access control, and intrusion detection.
+- [UCaaS](/services/ucaas): Cloud business phone system unifying voice, video, and messaging.
+- [CX / Contact Center](/services/cx): Omnichannel contact-center platforms with AI-assist and analytics.
+- [Business Broadband](/services/business-broadband): SLA-backed dedicated internet sourced across every Canadian carrier.
+- [SD-WAN](/services/sd-wan): Managed multi-site networking with QoS, failover, and integrated security.
+- [Data Cabling](/services/data-cabling): Certified structured cabling and fiber installation across Ontario and Canada.
+
+## Optional
+
+- [Privacy Policy](/privacy): How we handle personal data.
+- [Terms](/terms): Terms of use.

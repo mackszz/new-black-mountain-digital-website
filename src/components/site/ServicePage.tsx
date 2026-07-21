@@ -22,8 +22,40 @@ export interface ServicePageProps {
 }
 
 export function ServicePage(p: ServicePageProps) {
+  const stripTags = (s: string) => s.replace(/&amp;/g, "&").replace(/<[^>]*>/g, "");
+  const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      name: stripTags(`${p.eyebrow}`),
+      serviceType: p.pillar,
+      description: stripTags(p.lede),
+      areaServed: { "@type": "Country", name: "Canada" },
+      provider: {
+        "@type": "Organization",
+        name: "Black Mountain Digital",
+        url: "/",
+        telephone: "+1-905-844-6929",
+      },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: p.faq.map((f) => ({
+        "@type": "Question",
+        name: stripTags(f.q),
+        acceptedAnswer: { "@type": "Answer", text: stripTags(f.a) },
+      })),
+    },
+  ];
+
   return (
     <PageShell>
+      <script
+        type="application/ld+json"
+        // eslint-disable-next-line react/no-danger
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Crumbs
         trail={[
           { label: "Home", to: "/" },
@@ -31,6 +63,7 @@ export function ServicePage(p: ServicePageProps) {
           { label: p.eyebrow },
         ]}
       />
+
 
       <section className="container-page pt-8 pb-16 md:pt-14 md:pb-24">
         <div className="text-xs uppercase tracking-widest text-peak mb-4">{p.pillar} · {p.eyebrow}</div>
@@ -100,7 +133,7 @@ export function ServicePage(p: ServicePageProps) {
                   <div className="font-display font-semibold text-lg">{r.label}</div>
                   <p className="mt-2 text-slate-body text-sm">{r.desc}</p>
                   <div className="mt-4 text-peak text-sm inline-flex items-center gap-1">
-                    Learn more <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-0.5 transition-transform" />
+                    Explore {r.label} <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-0.5 transition-transform" />
                   </div>
                 </Link>
               ))}

@@ -13,6 +13,7 @@ export const Route = createFileRoute("/")({
           "One accountable partner for AI, security, voice, connectivity, and cabling. Serving Canadian SMBs and mid-market businesses since 1996.",
       },
       { property: "og:title", content: "Black Mountain Digital | Canadian Technology Partner Since 1996" },
+      { property: "og:description", content: "One accountable partner for AI, security, voice, connectivity, and cabling — serving Canadian SMBs and mid-market businesses since 1996." },
       { property: "og:url", content: "/" },
     ],
     links: [{ rel: "canonical", href: "/" }],

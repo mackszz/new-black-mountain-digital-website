@@ -7,6 +7,7 @@ export const Route = createFileRoute("/services/network-cyber-security")({
       { title: "Network & Cyber Security for Business | Black Mountain Digital" },
       { name: "description", content: "Managed firewall, endpoint protection, and 24/7 threat monitoring for Canadian businesses. PIPEDA-aligned, deployed by a partner that owns the outcome." },
       { property: "og:title", content: "Network & Cyber Security for Business | Black Mountain Digital" },
+      { property: "og:description", content: "Managed firewall, endpoint protection, and 24/7 threat monitoring for Canadian businesses — PIPEDA-aligned and owned by a single partner." },
       { property: "og:url", content: "/services/network-cyber-security" },
     ],
     links: [{ rel: "canonical", href: "/services/network-cyber-security" }],

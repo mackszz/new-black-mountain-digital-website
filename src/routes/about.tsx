@@ -8,6 +8,7 @@ export const Route = createFileRoute("/about")({
       { title: "About Black Mountain Digital | Canadian Technology Since 1996" },
       { name: "description", content: "Three decades building Canadian business technology — from telecom roots in 1996 to AI, security, and connectivity today. Meet the team behind 500+ projects." },
       { property: "og:title", content: "About Black Mountain Digital | Canadian Technology Since 1996" },
+      { property: "og:description", content: "From Canadian telecom roots in 1996 to today's AI, security, and connectivity practice — one accountable partner, three decades of client relationships." },
       { property: "og:url", content: "/about" },
     ],
     links: [{ rel: "canonical", href: "/about" }],

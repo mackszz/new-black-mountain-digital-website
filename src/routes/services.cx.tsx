@@ -7,6 +7,7 @@ export const Route = createFileRoute("/services/cx")({
       { title: "CX & Contact Center Solutions | Black Mountain Digital" },
       { name: "description", content: "Omnichannel contact-center platforms with voice, chat, email, and AI-assist. Deployed on top of your existing CRM and phone system by a Canadian partner." },
       { property: "og:title", content: "CX & Contact Center Solutions | Black Mountain Digital" },
+      { property: "og:description", content: "Omnichannel contact center with voice, chat, email, and AI-assist — layered on top of your CRM by a Canadian partner." },
       { property: "og:url", content: "/services/cx" },
     ],
     links: [{ rel: "canonical", href: "/services/cx" }],
