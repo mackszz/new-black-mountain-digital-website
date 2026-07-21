@@ -17,6 +17,7 @@ const routes = [
   { path: "/services/business-broadband", priority: "0.8", changefreq: "monthly" as const },
   { path: "/services/sd-wan", priority: "0.8", changefreq: "monthly" as const },
   { path: "/services/data-cabling", priority: "0.8", changefreq: "monthly" as const },
+  { path: "/guides/ai-vs-human-answering-service", priority: "0.7", changefreq: "monthly" as const },
   { path: "/privacy", priority: "0.3", changefreq: "yearly" as const },
   { path: "/terms", priority: "0.3", changefreq: "yearly" as const },
 ];
