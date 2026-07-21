@@ -22,6 +22,10 @@ Black Mountain Digital consolidates the vendors a growing business would otherwi
 - [SD-WAN](/services/sd-wan): Managed multi-site networking with QoS, failover, and integrated security.
 - [Data Cabling](/services/data-cabling): Certified structured cabling and fiber installation across Ontario and Canada.
 
+## Guides
+
+- [AI vs. Human Answering Service](/guides/ai-vs-human-answering-service): 2026 comparison of AI receptionists and traditional phone answering services on cost, availability, and CRM integration.
+
 ## Optional
 
 - [Privacy Policy](/privacy): How we handle personal data.

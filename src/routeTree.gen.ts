@@ -24,6 +24,7 @@ import { Route as ServicesCxRouteImport } from './routes/services.cx'
 import { Route as ServicesBusinessBroadbandRouteImport } from './routes/services.business-broadband'
 import { Route as ServicesAiReceptionistRouteImport } from './routes/services.ai-receptionist'
 import { Route as ServicesAiCustomerServiceRepRouteImport } from './routes/services.ai-customer-service-rep'
+import { Route as GuidesAiVsHumanAnsweringServiceRouteImport } from './routes/guides.ai-vs-human-answering-service'
 
 const TermsRoute = TermsRouteImport.update({
   id: '/terms',
@@ -104,6 +105,12 @@ const ServicesAiCustomerServiceRepRoute =
     path: '/services/ai-customer-service-rep',
     getParentRoute: () => rootRouteImport,
   } as any)
+const GuidesAiVsHumanAnsweringServiceRoute =
+  GuidesAiVsHumanAnsweringServiceRouteImport.update({
+    id: '/guides/ai-vs-human-answering-service',
+    path: '/guides/ai-vs-human-answering-service',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -112,6 +119,7 @@ export interface FileRoutesByFullPath {
   '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
+  '/guides/ai-vs-human-answering-service': typeof GuidesAiVsHumanAnsweringServiceRoute
   '/services/ai-customer-service-rep': typeof ServicesAiCustomerServiceRepRoute
   '/services/ai-receptionist': typeof ServicesAiReceptionistRoute
   '/services/business-broadband': typeof ServicesBusinessBroadbandRoute
@@ -129,6 +137,7 @@ export interface FileRoutesByTo {
   '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
+  '/guides/ai-vs-human-answering-service': typeof GuidesAiVsHumanAnsweringServiceRoute
   '/services/ai-customer-service-rep': typeof ServicesAiCustomerServiceRepRoute
   '/services/ai-receptionist': typeof ServicesAiReceptionistRoute
   '/services/business-broadband': typeof ServicesBusinessBroadbandRoute
@@ -147,6 +156,7 @@ export interface FileRoutesById {
   '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
+  '/guides/ai-vs-human-answering-service': typeof GuidesAiVsHumanAnsweringServiceRoute
   '/services/ai-customer-service-rep': typeof ServicesAiCustomerServiceRepRoute
   '/services/ai-receptionist': typeof ServicesAiReceptionistRoute
   '/services/business-broadband': typeof ServicesBusinessBroadbandRoute
@@ -166,6 +176,7 @@ export interface FileRouteTypes {
     | '/privacy'
     | '/sitemap.xml'
     | '/terms'
+    | '/guides/ai-vs-human-answering-service'
     | '/services/ai-customer-service-rep'
     | '/services/ai-receptionist'
     | '/services/business-broadband'
@@ -183,6 +194,7 @@ export interface FileRouteTypes {
     | '/privacy'
     | '/sitemap.xml'
     | '/terms'
+    | '/guides/ai-vs-human-answering-service'
     | '/services/ai-customer-service-rep'
     | '/services/ai-receptionist'
     | '/services/business-broadband'
@@ -200,6 +212,7 @@ export interface FileRouteTypes {
     | '/privacy'
     | '/sitemap.xml'
     | '/terms'
+    | '/guides/ai-vs-human-answering-service'
     | '/services/ai-customer-service-rep'
     | '/services/ai-receptionist'
     | '/services/business-broadband'
@@ -218,6 +231,7 @@ export interface RootRouteChildren {
   PrivacyRoute: typeof PrivacyRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   TermsRoute: typeof TermsRoute
+  GuidesAiVsHumanAnsweringServiceRoute: typeof GuidesAiVsHumanAnsweringServiceRoute
   ServicesAiCustomerServiceRepRoute: typeof ServicesAiCustomerServiceRepRoute
   ServicesAiReceptionistRoute: typeof ServicesAiReceptionistRoute
   ServicesBusinessBroadbandRoute: typeof ServicesBusinessBroadbandRoute
@@ -336,6 +350,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ServicesAiCustomerServiceRepRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/guides/ai-vs-human-answering-service': {
+      id: '/guides/ai-vs-human-answering-service'
+      path: '/guides/ai-vs-human-answering-service'
+      fullPath: '/guides/ai-vs-human-answering-service'
+      preLoaderRoute: typeof GuidesAiVsHumanAnsweringServiceRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -346,6 +367,7 @@ const rootRouteChildren: RootRouteChildren = {
   PrivacyRoute: PrivacyRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   TermsRoute: TermsRoute,
+  GuidesAiVsHumanAnsweringServiceRoute: GuidesAiVsHumanAnsweringServiceRoute,
   ServicesAiCustomerServiceRepRoute: ServicesAiCustomerServiceRepRoute,
   ServicesAiReceptionistRoute: ServicesAiReceptionistRoute,
   ServicesBusinessBroadbandRoute: ServicesBusinessBroadbandRoute,
