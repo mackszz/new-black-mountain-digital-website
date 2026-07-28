@@ -14,7 +14,7 @@ export const Route = createFileRoute("/privacy")({
   component: () => (
     <PageShell>
       <article className="container-page py-16 max-w-3xl">
-        <div className="text-xs uppercase tracking-widest text-peak mb-4">Legal</div>
+        <div className="text-xs uppercase tracking-widest text-peak-deep mb-4">Legal</div>
         <h1 className="text-4xl md:text-5xl font-display font-bold">Privacy Policy</h1>
         <p className="mt-4 text-sm text-slate-body">Last updated: {new Date().toLocaleDateString("en-CA", { year: "numeric", month: "long", day: "numeric" })}</p>
 
@@ -34,10 +34,10 @@ export const Route = createFileRoute("/privacy")({
           <p>We retain personal information only as long as needed for the purposes described above or as required by law.</p>
 
           <h2 className="text-2xl font-display font-semibold text-ink pt-4">Your rights</h2>
-          <p>You can request access to, correction of, or deletion of your personal information by contacting us at <a href="mailto:info@blackmtdigital.com" className="text-peak">info@blackmtdigital.com</a>.</p>
+          <p>You can request access to, correction of, or deletion of your personal information by contacting us at <a href="mailto:info@blackmtdigital.com" className="text-peak-deep">info@blackmtdigital.com</a>.</p>
 
           <h2 className="text-2xl font-display font-semibold text-ink pt-4">Contact</h2>
-          <p>Questions about this policy: <a href="mailto:info@blackmtdigital.com" className="text-peak">info@blackmtdigital.com</a> or 905-844-6929.</p>
+          <p>Questions about this policy: <a href="mailto:info@blackmtdigital.com" className="text-peak-deep">info@blackmtdigital.com</a> or 905-844-6929.</p>
         </div>
       </article>
     </PageShell>

@@ -14,7 +14,7 @@ export const Route = createFileRoute("/terms")({
   component: () => (
     <PageShell>
       <article className="container-page py-16 max-w-3xl">
-        <div className="text-xs uppercase tracking-widest text-peak mb-4">Legal</div>
+        <div className="text-xs uppercase tracking-widest text-peak-deep mb-4">Legal</div>
         <h1 className="text-4xl md:text-5xl font-display font-bold">Terms of Use</h1>
         <p className="mt-4 text-sm text-slate-body">Last updated: {new Date().toLocaleDateString("en-CA", { year: "numeric", month: "long", day: "numeric" })}</p>
 
@@ -34,7 +34,7 @@ export const Route = createFileRoute("/terms")({
           <p>These terms are governed by the laws of the Province of Ontario and the federal laws of Canada applicable therein.</p>
 
           <h2 className="text-2xl font-display font-semibold text-ink pt-4">Contact</h2>
-          <p>Questions: <a href="mailto:info@blackmtdigital.com" className="text-peak">info@blackmtdigital.com</a>.</p>
+          <p>Questions: <a href="mailto:info@blackmtdigital.com" className="text-peak-deep">info@blackmtdigital.com</a>.</p>
         </div>
       </article>
     </PageShell>

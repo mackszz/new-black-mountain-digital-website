@@ -66,7 +66,7 @@ export function ServicePage(p: ServicePageProps) {
 
 
       <section className="container-page pt-8 pb-16 md:pt-14 md:pb-24">
-        <div className="text-xs uppercase tracking-widest text-peak mb-4">{p.pillar} · {p.eyebrow}</div>
+        <div className="text-xs uppercase tracking-widest text-peak-deep mb-4">{p.pillar} · {p.eyebrow}</div>
         <h1 className="text-4xl md:text-6xl font-display font-bold max-w-4xl leading-[1.05]">{p.title}</h1>
         <p className="mt-6 text-lg md:text-xl text-slate-body max-w-2xl">{p.lede}</p>
         <div className="mt-8 flex flex-wrap gap-3">
@@ -107,13 +107,13 @@ export function ServicePage(p: ServicePageProps) {
       <section className="container-page py-20">
         <div className="grid gap-10 lg:grid-cols-3">
           <div>
-            <div className="text-xs uppercase tracking-widest text-peak mb-3">Capabilities</div>
+            <div className="text-xs uppercase tracking-widest text-peak-deep mb-3">Capabilities</div>
             <h2 className="text-3xl md:text-4xl font-display font-semibold">Enterprise-grade, delivered without the enterprise overhead.</h2>
           </div>
           <ul className="lg:col-span-2 grid gap-3 sm:grid-cols-2">
             {p.capabilities.map((c) => (
               <li key={c} className="flex gap-3 items-start">
-                <Check className="h-4 w-4 text-peak mt-1 shrink-0" />
+                <Check className="h-4 w-4 text-peak-deep mt-1 shrink-0" />
                 <span className="text-[15px] text-charcoal">{c}</span>
               </li>
             ))}
@@ -132,7 +132,7 @@ export function ServicePage(p: ServicePageProps) {
                 <Link key={r.to} to={r.to} className="group bg-card border border-border rounded-md p-6 hover:border-peak transition-colors">
                   <div className="font-display font-semibold text-lg">{r.label}</div>
                   <p className="mt-2 text-slate-body text-sm">{r.desc}</p>
-                  <div className="mt-4 text-peak text-sm inline-flex items-center gap-1">
+                  <div className="mt-4 text-peak-deep text-sm inline-flex items-center gap-1">
                     Explore {r.label} <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-0.5 transition-transform" />
                   </div>
                 </Link>

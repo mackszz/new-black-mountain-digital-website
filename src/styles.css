@@ -39,6 +39,8 @@
   --color-charcoal: var(--charcoal);
   --color-slate-body: var(--slate-body);
   --color-peak: var(--peak);
+  --color-peak-deep: var(--peak-deep);
+
   --color-stone: var(--stone);
 }
 
@@ -49,7 +51,9 @@
   --ink: oklch(0.196 0 0);           /* #1A1A1A */
   --charcoal: oklch(0.302 0 0);      /* #2E2E2E */
   --slate-body: oklch(0.469 0.014 250); /* #525A62 */
-  --peak: oklch(0.615 0.041 232);    /* #6B8FA0 */
+  --peak: oklch(0.615 0.041 232);    /* #6B8FA0 — accent on dark surfaces */
+  --peak-deep: oklch(0.505 0.043 232); /* #4E6D7C — AA accent text on light surfaces */
+
   --stone: oklch(0.938 0.005 80);    /* #ECEAE7 */
 
   --background: oklch(0.984 0 0);    /* #FAFAFA */

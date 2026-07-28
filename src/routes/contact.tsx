@@ -50,7 +50,7 @@ function Contact() {
   return (
     <PageShell>
       <section className="container-page pt-16 md:pt-24 pb-12">
-        <div className="text-xs uppercase tracking-widest text-peak mb-5">Contact</div>
+        <div className="text-xs uppercase tracking-widest text-peak-deep mb-5">Contact</div>
         <h1 className="text-4xl md:text-6xl font-display font-bold max-w-3xl leading-[1.05]">
           Tell us where technology is holding you back.
         </h1>
@@ -65,12 +65,12 @@ function Contact() {
             {submitted ? (
               <div className="py-12 text-center">
                 <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-peak/10">
-                  <Check className="h-6 w-6 text-peak" />
+                  <Check className="h-6 w-6 text-peak-deep" />
                 </div>
                 <h2 className="mt-6 text-2xl font-display font-semibold">Message received.</h2>
                 <p className="mt-3 text-slate-body max-w-md mx-auto">
                   A specialist will reach out within one business day. If it's urgent, call us at{" "}
-                  <a href="tel:9058446929" className="text-peak font-medium">905-844-6929</a>.
+                  <a href="tel:9058446929" className="text-peak-deep font-medium">905-844-6929</a>.
                 </p>
               </div>
             ) : (
@@ -126,31 +126,31 @@ function Contact() {
 
           <aside className="space-y-8">
             <div>
-              <div className="text-xs uppercase tracking-widest text-peak mb-3">Direct lines</div>
+              <div className="text-xs uppercase tracking-widest text-peak-deep mb-3">Direct lines</div>
               <ul className="space-y-4">
                 <li className="flex gap-3">
-                  <Phone className="h-4 w-4 text-peak mt-1 shrink-0" />
+                  <Phone className="h-4 w-4 text-peak-deep mt-1 shrink-0" />
                   <div>
                     <div className="text-xs text-slate-body">Primary</div>
-                    <a href="tel:9058446929" className="font-medium text-ink hover:text-peak">905-844-6929</a>
+                    <a href="tel:9058446929" className="font-medium text-ink hover:text-peak-deep">905-844-6929</a>
                   </div>
                 </li>
                 <li className="flex gap-3">
-                  <Phone className="h-4 w-4 text-peak mt-1 shrink-0" />
+                  <Phone className="h-4 w-4 text-peak-deep mt-1 shrink-0" />
                   <div>
                     <div className="text-xs text-slate-body">Toll-free</div>
-                    <a href="tel:8557751140" className="font-medium text-ink hover:text-peak">855-775-1140</a>
+                    <a href="tel:8557751140" className="font-medium text-ink hover:text-peak-deep">855-775-1140</a>
                   </div>
                 </li>
                 <li className="flex gap-3">
-                  <Mail className="h-4 w-4 text-peak mt-1 shrink-0" />
+                  <Mail className="h-4 w-4 text-peak-deep mt-1 shrink-0" />
                   <div>
                     <div className="text-xs text-slate-body">Email</div>
-                    <a href="mailto:info@blackmtdigital.com" className="font-medium text-ink hover:text-peak">info@blackmtdigital.com</a>
+                    <a href="mailto:info@blackmtdigital.com" className="font-medium text-ink hover:text-peak-deep">info@blackmtdigital.com</a>
                   </div>
                 </li>
                 <li className="flex gap-3">
-                  <MapPin className="h-4 w-4 text-peak mt-1 shrink-0" />
+                  <MapPin className="h-4 w-4 text-peak-deep mt-1 shrink-0" />
                   <div>
                     <div className="text-xs text-slate-body">Serving</div>
                     <div className="text-ink">Ontario &amp; across Canada</div>
@@ -160,7 +160,7 @@ function Contact() {
             </div>
 
             <div className="bg-stone/60 border border-border rounded-md p-6">
-              <div className="text-xs uppercase tracking-widest text-peak mb-2">Support hours</div>
+              <div className="text-xs uppercase tracking-widest text-peak-deep mb-2">Support hours</div>
               <p className="text-sm text-slate-body">
                 <span className="text-ink font-medium">New inquiries:</span> Mon–Fri, 8am–6pm ET.<br />
                 <span className="text-ink font-medium">Existing clients:</span> 24/7 monitored support.

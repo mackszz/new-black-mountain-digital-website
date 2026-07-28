@@ -50,11 +50,11 @@ export const Route = createFileRoute("/services/cx")({
             </h2>
             <div className="mt-6 grid gap-6 md:grid-cols-2">
               <div className="bg-card border border-border p-6 rounded-md">
-                <div className="text-xs uppercase tracking-widest text-peak mb-2">UCaaS</div>
+                <div className="text-xs uppercase tracking-widest text-peak-deep mb-2">UCaaS</div>
                 <p className="text-slate-body text-[15px]">The foundation. Business phone system, video, and team messaging for everyone at the company. Every employee uses it.</p>
               </div>
               <div className="bg-card border border-border p-6 rounded-md">
-                <div className="text-xs uppercase tracking-widest text-peak mb-2">CX / Contact Center</div>
+                <div className="text-xs uppercase tracking-widest text-peak-deep mb-2">CX / Contact Center</div>
                 <p className="text-slate-body text-[15px]">The layer on top. Purpose-built for teams whose full-time job is customer-facing — support, sales, service — with queuing, routing, and analytics.</p>
               </div>
             </div>
