@@ -40,7 +40,7 @@ export function Footer() {
         ]} />
       </div>
       <div className="border-t border-white/10">
-        <div className="container-page py-6 flex flex-col sm:flex-row gap-2 items-start sm:items-center justify-between text-xs text-white/50">
+        <div className="container-page py-6 flex flex-col sm:flex-row gap-2 items-start sm:items-center justify-between text-xs text-white/70">
           <div>© {new Date().getFullYear()} Black Mountain Digital. All rights reserved.</div>
           <div>Serving businesses across Ontario and Canada.</div>
         </div>
