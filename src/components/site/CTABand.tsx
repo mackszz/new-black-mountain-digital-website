@@ -17,7 +17,7 @@ export function CTABand({ eyebrow, title, body, primary = "Talk to an Expert" }:
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
               to="/contact"
-              className="inline-flex items-center gap-2 rounded-md bg-peak px-6 py-3 text-sm font-medium text-white hover:bg-peak/90 transition-colors"
+              className="inline-flex items-center gap-2 rounded-md bg-peak-deep px-6 py-3 text-sm font-medium text-white hover:bg-peak-deep/90 transition-colors"
             >
               {primary} <ArrowRight className="h-4 w-4" />
             </Link>
