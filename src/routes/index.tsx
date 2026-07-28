@@ -61,7 +61,7 @@ function Home() {
       {/* Hero */}
       <section className="border-b border-border">
         <div className="container-page pt-16 md:pt-24 pb-16 md:pb-24">
-          <div className="text-xs uppercase tracking-widest text-peak mb-5">Canadian technology partner · Est. 1996</div>
+          <div className="text-xs uppercase tracking-widest text-peak-deep mb-5">Canadian technology partner · Est. 1996</div>
           <h1 className="text-4xl sm:text-6xl md:text-7xl font-display font-bold leading-[1.02] max-w-5xl">
             Enterprise-grade technology,
             <br />
@@ -98,7 +98,7 @@ function Home() {
       <section className="container-page py-20 md:py-28">
         <div className="grid gap-12 lg:grid-cols-3">
           <div>
-            <div className="text-xs uppercase tracking-widest text-peak mb-3">Why Black Mountain Digital</div>
+            <div className="text-xs uppercase tracking-widest text-peak-deep mb-3">Why Black Mountain Digital</div>
             <h2 className="text-3xl md:text-5xl font-display font-semibold leading-tight">
               One partner. Every layer of your technology stack.
             </h2>
@@ -112,7 +112,7 @@ function Home() {
             ].map((x) => (
               <div key={x.t}>
                 <div className="flex items-center gap-2 mb-2">
-                  <Check className="h-4 w-4 text-peak" />
+                  <Check className="h-4 w-4 text-peak-deep" />
                   <div className="font-display font-semibold text-lg">{x.t}</div>
                 </div>
                 <p className="text-slate-body text-[15px]">{x.d}</p>
@@ -127,7 +127,7 @@ function Home() {
         <div className="container-page py-20 md:py-24">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
             <div>
-              <div className="text-xs uppercase tracking-widest text-peak mb-3">Services</div>
+              <div className="text-xs uppercase tracking-widest text-peak-deep mb-3">Services</div>
               <h2 className="text-3xl md:text-5xl font-display font-semibold max-w-2xl">Five pillars. Fully-fledged practices.</h2>
             </div>
             <p className="text-slate-body max-w-md">
@@ -138,7 +138,7 @@ function Home() {
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {pillars.map(({ icon: Icon, ...p }) => (
               <Link key={p.title} to={p.to} className="group bg-card border border-border p-8 rounded-md hover:border-peak transition-colors">
-                <Icon className="h-6 w-6 text-peak" />
+                <Icon className="h-6 w-6 text-peak-deep" />
                 <h3 className="mt-6 font-display font-semibold text-xl">{p.title}</h3>
                 <p className="mt-2 text-slate-body text-[15px]">{p.body}</p>
                 <div className="mt-6 inline-flex items-center gap-1 text-sm text-ink font-medium">
@@ -152,7 +152,7 @@ function Home() {
 
       {/* Testimonials */}
       <section className="container-page py-20 md:py-24">
-        <div className="text-xs uppercase tracking-widest text-peak mb-3">Client voices</div>
+        <div className="text-xs uppercase tracking-widest text-peak-deep mb-3">Client voices</div>
         <h2 className="text-3xl md:text-5xl font-display font-semibold max-w-2xl">What partnership actually looks like.</h2>
         <p className="mt-3 text-sm text-slate-body italic">Placeholder testimonials — to be replaced with real client quotes.</p>
 

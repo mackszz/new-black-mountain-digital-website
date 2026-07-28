@@ -68,7 +68,7 @@ function Guide() {
 
       <article>
         <header className="container-page pt-8 pb-12 md:pt-14 md:pb-16">
-          <div className="text-xs uppercase tracking-widest text-peak mb-4">Guide · Voice</div>
+          <div className="text-xs uppercase tracking-widest text-peak-deep mb-4">Guide · Voice</div>
           <h1 className="text-4xl md:text-6xl font-display font-bold max-w-4xl leading-[1.05]">
             AI vs. human answering service: which one belongs on your front line?
           </h1>
@@ -110,7 +110,7 @@ function Guide() {
                     <td className="p-4 text-slate-body align-top">{r.ai}</td>
                     <td className="p-4 text-slate-body align-top">{r.human}</td>
                     <td className="p-4 align-top">
-                      {r.winner === "ai" && <span className="inline-flex items-center gap-1 text-peak font-medium"><Check className="h-3.5 w-3.5" />AI</span>}
+                      {r.winner === "ai" && <span className="inline-flex items-center gap-1 text-peak-deep font-medium"><Check className="h-3.5 w-3.5" />AI</span>}
                       {r.winner === "human" && <span className="inline-flex items-center gap-1 text-charcoal font-medium"><Check className="h-3.5 w-3.5" />Human</span>}
                       {r.winner === "tie" && <span className="text-slate-body">Tie</span>}
                     </td>
@@ -126,13 +126,13 @@ function Guide() {
             <h2 className="text-3xl md:text-4xl font-display font-semibold max-w-3xl">Cost-efficiency: where the math actually lands</h2>
             <div className="mt-6 grid gap-6 md:grid-cols-2 max-w-4xl">
               <div className="bg-card border border-border rounded-md p-6">
-                <div className="text-xs uppercase tracking-widest text-peak mb-2">Traditional answering service</div>
+                <div className="text-xs uppercase tracking-widest text-peak-deep mb-2">Traditional answering service</div>
                 <p className="text-slate-body">
                   Typically billed per minute at $1.25–$2.50, with monthly minimums, per-call setup fees, and overage rates once you exceed the plan. A 500-call month at four minutes per call runs $2,500–$5,000 before after-hours or holiday premiums.
                 </p>
               </div>
               <div className="bg-card border border-border rounded-md p-6">
-                <div className="text-xs uppercase tracking-widest text-peak mb-2">AI receptionist</div>
+                <div className="text-xs uppercase tracking-widest text-peak-deep mb-2">AI receptionist</div>
                 <p className="text-slate-body">
                   A flat monthly platform fee plus a small per-minute or per-call rate — typically 30–60% less on a fully-loaded basis, with no premium for after-hours, weekends, or Canadian statutory holidays.
                 </p>
@@ -174,7 +174,7 @@ function Guide() {
                   "Crisis lines and grief-adjacent calls where empathy is the product.",
                   "Very low call volume where any platform fee outweighs a pay-per-call human service.",
                 ].map((x) => (
-                  <li key={x} className="flex gap-3"><Check className="h-4 w-4 text-peak mt-1 shrink-0" /><span>{x}</span></li>
+                  <li key={x} className="flex gap-3"><Check className="h-4 w-4 text-peak-deep mt-1 shrink-0" /><span>{x}</span></li>
                 ))}
               </ul>
             </div>

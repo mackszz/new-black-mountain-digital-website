@@ -27,7 +27,7 @@ function About() {
   return (
     <PageShell>
       <section className="container-page pt-16 md:pt-24 pb-16">
-        <div className="text-xs uppercase tracking-widest text-peak mb-5">About</div>
+        <div className="text-xs uppercase tracking-widest text-peak-deep mb-5">About</div>
         <h1 className="text-4xl md:text-6xl font-display font-bold max-w-4xl leading-[1.05]">
           A Canadian technology company, built for the long run.
         </h1>
@@ -40,7 +40,7 @@ function About() {
       <section className="bg-stone/60 border-y border-border">
         <div className="container-page py-20 grid gap-12 lg:grid-cols-2">
           <div>
-            <div className="text-xs uppercase tracking-widest text-peak mb-3">Our story</div>
+            <div className="text-xs uppercase tracking-widest text-peak-deep mb-3">Our story</div>
             <h2 className="text-3xl font-display font-semibold">From copper to code — three decades of Canadian infrastructure.</h2>
             <p className="mt-4 text-slate-body">
               We started by pulling cable and provisioning phone lines for Ontario businesses. As the technology stack evolved, so did we — into managed connectivity, then unified communications, then cybersecurity, and now AI-driven automation.
@@ -61,14 +61,14 @@ function About() {
       <section className="container-page py-20">
         <div className="grid gap-12 lg:grid-cols-2">
           <div>
-            <div className="text-xs uppercase tracking-widest text-peak mb-3">Mission</div>
+            <div className="text-xs uppercase tracking-widest text-peak-deep mb-3">Mission</div>
             <h2 className="text-3xl font-display font-semibold">Make enterprise-grade technology available to every Canadian business.</h2>
             <p className="mt-4 text-slate-body">
               We remove the complexity, the vendor sprawl, and the guesswork — so mid-sized companies can operate with the same infrastructure as the Fortune 500.
             </p>
           </div>
           <div>
-            <div className="text-xs uppercase tracking-widest text-peak mb-3">Vision</div>
+            <div className="text-xs uppercase tracking-widest text-peak-deep mb-3">Vision</div>
             <h2 className="text-3xl font-display font-semibold">The default technology partner for Canadian SMBs and mid-market businesses.</h2>
             <p className="mt-4 text-slate-body">
               Not the biggest name. The most trusted one — the partner that shows up, sticks around, and gets it right.
