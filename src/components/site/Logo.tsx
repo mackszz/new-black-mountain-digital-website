@@ -1,4 +1,7 @@
+import { useState } from "react";
 import logo from "@/assets/bmd-logo-black.png.asset.json";
+
+const FALLBACK_SRC = "/bmd-logo-black.png";
 
 export function Logo({
   className,
@@ -9,9 +12,14 @@ export function Logo({
   variant?: "dark" | "light";
   priority?: boolean;
 }) {
+  const [src, setSrc] = useState(logo.url);
+
   return (
     <img
-      src={logo.url}
+      src={src}
+      onError={() => {
+        if (src !== FALLBACK_SRC) setSrc(FALLBACK_SRC);
+      }}
       alt="Black Mountain Digital"
       width={512}
       height={512}
