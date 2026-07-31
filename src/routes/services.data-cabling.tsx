@@ -73,7 +73,7 @@ export const Route = createFileRoute("/services/data-cabling")({
         { q: "What standards do you install to?", a: "TIA/EIA-568 for structured cabling and BICSI best practices for pathway, grounding, and administration. Fiber to ANSI/TIA-568.3 with OTDR-verified links." },
         { q: "Can we get a warranty on the install?", a: "Yes. On qualifying jobs using certified components we offer a 25-year system warranty covering both components and workmanship." },
         { q: "Do you service the Greater Toronto Area and beyond?", a: "We serve the GTA, southern Ontario, and travel across Canada for multi-site clients we already support on other services." },
-        { q: "Can you fix a mess someone else left?", a: "Frequently. We audit existing installs, document what's usable, and re-cable / re-terminate only what needs it — no wholesale rip-and-replace unless it genuinely helps." },
+        { q: "Can you fix a mess someone else left?", a: "Frequently. We audit existing installs, document what's usable, and re-cable / re-terminate only what needs it — no full rip-and-replace unless it genuinely helps." },
       ]}
       cta={{
         title: "Get the physical layer right.",

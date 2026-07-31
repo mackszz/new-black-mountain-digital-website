@@ -36,7 +36,7 @@ export const Route = createFileRoute("/services/business-broadband")({
         "Fiber, cable, and fixed wireless",
         "Symmetric 100 Mbps – 10 Gbps",
         "Static IPv4 &amp; IPv6",
-        "Wholesale rates for volume deployments",
+        "Volume pricing for multi-site deployments",
         "Diverse-path secondary circuits",
         "LTE / 5G failover routers",
         "Multi-site MSA and consolidated billing",
