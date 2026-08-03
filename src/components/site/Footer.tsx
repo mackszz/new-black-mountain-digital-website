@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="border-t border-white/10 bg-ink text-white/80">
       <div className="container-page py-16 grid gap-12 md:grid-cols-2 lg:grid-cols-6">
         <div className="lg:col-span-2 space-y-4">
-          <Logo variant="light" className="h-16 w-auto" />
+          <Logo variant="light" className="h-24 w-auto" />
           <p className="text-sm text-white/60 max-w-xs">
             A Canadian technology partner since 1996. AI, security, voice, connectivity, and cabling — under one accountable roof.
           </p>
