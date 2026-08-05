@@ -154,7 +154,6 @@ function Home() {
       <section className="container-page py-20 md:py-24">
         <div className="text-xs uppercase tracking-widest text-peak-deep mb-3">Client voices</div>
         <h2 className="text-3xl md:text-5xl font-display font-semibold max-w-2xl">What partnership actually looks like.</h2>
-        <p className="mt-3 text-sm text-slate-body italic">Placeholder testimonials — to be replaced with real client quotes.</p>
 
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {testimonials.map((t, i) => (
