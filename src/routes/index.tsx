@@ -105,7 +105,7 @@ function Home() {
           </div>
           <div className="lg:col-span-2 grid gap-8 sm:grid-cols-2">
             {[
-              { t: "Vendor-agnostic", d: "We resell and integrate the carriers and platforms that fit your business — not a proprietary product line we're stuck defending." },
+              { t: "Vendor-agnostic", d: "We integrate carriers and platforms that fit your business — not a proprietary product line we're stuck defending." },
               { t: "Thirty-year track record", d: "Founded as a Canadian telecom infrastructure company in 1996. The same discipline now runs our AI, security, and cloud practice." },
               { t: "Single point of accountability", d: "One quarterback for procurement, deployment, and 24/7 support across every service line — no more finger-pointing between vendors." },
               { t: "Built for Canadian businesses", d: "PIPEDA-aligned, Canadian-hosted where required, and staffed by people who know the local carrier and regulatory landscape." },
