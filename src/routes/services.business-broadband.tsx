@@ -17,7 +17,7 @@ export const Route = createFileRoute("/services/business-broadband")({
       pillar="Connectivity"
       eyebrow="Business Broadband"
       title="Business internet that's actually built for business."
-      lede="Dedicated fiber, DIA, and cable broadband across Canada — SLA-backed, redundancy-engineered, and sourced from the right carrier for each site rather than the one we happen to resell."
+      lede="Dedicated fiber, DIA, and cable broadband across Canada — SLA-backed, redundancy-engineered, and sourced from the right carrier for each site. We integrate carriers and platforms that fit your business."
       stats={[
         { value: "99.99%", label: "Uptime SLA (DIA)" },
         { value: "10 Gbps", label: "Available speeds" },
