@@ -14,6 +14,10 @@ export const Route = createFileRoute("/guides/ai-vs-human-answering-service")({
       { property: "og:description", content: "Compare virtual receptionists and human answering services on cost, availability, CRM integration, and call quality." },
       { property: "og:type", content: "article" },
       { property: "og:url", content: "/guides/ai-vs-human-answering-service" },
+      { property: "og:locale", content: "en_CA" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "AI vs. Human Answering Service: A 2026 Comparison" },
+      { name: "twitter:description", content: "Compare virtual receptionists and human answering services on cost, availability, CRM integration, and call quality." },
     ],
     links: [{ rel: "canonical", href: "/guides/ai-vs-human-answering-service" }],
     scripts: [

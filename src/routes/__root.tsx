@@ -82,7 +82,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "AI, security, voice, connectivity, and structured cabling for Canadian SMBs and mid-market businesses — one accountable partner since 1996.",
       },
       { property: "og:type", content: "website" },
+      { property: "og:locale", content: "en_CA" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Black Mountain Digital | Canadian Technology Partner Since 1996" },
+      {
+        name: "twitter:description",
+        content:
+          "AI, security, voice, connectivity, and structured cabling for Canadian SMBs and mid-market businesses — one accountable partner since 1996.",
+      },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
