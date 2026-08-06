@@ -34,9 +34,9 @@ export function ServicePage(p: ServicePageProps) {
       provider: {
         "@type": "Organization",
         name: "Black Mountain Digital",
-        url: "/",
         telephone: "+1-905-844-6929",
       },
+
     },
     {
       "@context": "https://schema.org",
