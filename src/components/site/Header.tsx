@@ -40,7 +40,7 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur">
-      <div className="container-page flex h-28 items-center justify-between">
+      <div className="container-page flex h-40 items-center justify-between">
         <Link to="/" className="flex items-center gap-2" aria-label="Black Mountain Digital home">
           <Logo className="h-32 w-auto" priority />
         </Link>
