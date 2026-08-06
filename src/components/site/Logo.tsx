@@ -7,10 +7,12 @@ export function Logo({
   className,
   variant = "dark",
   priority = false,
+  alt = "Black Mountain Digital logo",
 }: {
   className?: string;
   variant?: "dark" | "light";
   priority?: boolean;
+  alt?: string;
 }) {
   const [src, setSrc] = useState(logo.url);
 
@@ -20,7 +22,7 @@ export function Logo({
       onError={() => {
         if (src !== FALLBACK_SRC) setSrc(FALLBACK_SRC);
       }}
-      alt="Black Mountain Digital"
+      alt={alt}
       width={512}
       height={512}
       loading={priority ? "eager" : "lazy"}
