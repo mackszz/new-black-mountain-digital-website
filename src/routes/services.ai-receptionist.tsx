@@ -56,7 +56,7 @@ export const Route = createFileRoute("/services/ai-receptionist")({
         { title: "Smart call routing", body: "Understands who the caller needs and transfers to the right extension, department, or on-call phone." },
         { title: "Message capture with context", body: "When no one is available, the AI takes a detailed message, transcribes it, and emails it to the right owner." },
         { title: "Lead qualification", body: "Asks the questions your sales team would ask, scores the caller, and drops the record into your CRM." },
-        { title: "Bilingual English &amp; French", body: "Detects the caller's language on the first word and responds in kind — essential for Canadian businesses." },
+        { title: "Bilingual English & French", body: "Detects the caller's language on the first word and responds in kind — essential for Canadian businesses." },
       ]}
       capabilities={[
         "Custom greeting and voice persona",
