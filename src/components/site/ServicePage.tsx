@@ -12,12 +12,13 @@ export interface ServicePageProps {
   eyebrow: string;
   title: string;
   lede: string;
-  stats?: { value: string; label: string }[];
+  stats?: { value: string; label: string; note?: string }[];
+  afterHero?: ReactNode;
   features: { title: string; body: string }[];
   capabilities: string[];
   related: { to: string; label: string; desc: string }[];
   faq: { q: string; a: string }[];
-  cta: { title: string; body: string };
+  cta: { title: string; body: string; primary?: string };
   extra?: ReactNode;
 }
 
@@ -84,11 +85,14 @@ export function ServicePage(p: ServicePageProps) {
               <div key={s.label}>
                 <dt className="text-xs uppercase tracking-widest text-slate-body">{s.label}</dt>
                 <dd className="mt-1 font-display font-bold text-3xl md:text-4xl text-ink">{s.value}</dd>
+                {s.note && <p className="mt-1 text-sm text-slate-body">{s.note}</p>}
               </div>
             ))}
           </dl>
         )}
       </section>
+
+      {p.afterHero}
 
       <section className="bg-stone/60 border-y border-border">
         <div className="container-page py-20">
@@ -143,7 +147,7 @@ export function ServicePage(p: ServicePageProps) {
       )}
 
       <FAQ items={p.faq} />
-      <CTABand title={p.cta.title} body={p.cta.body} />
+      <CTABand title={p.cta.title} body={p.cta.body} primary={p.cta.primary} />
     </PageShell>
   );
 }
