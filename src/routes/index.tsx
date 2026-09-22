@@ -27,11 +27,11 @@ export const Route = createFileRoute("/")({
 });
 
 const pillars = [
-  { icon: Cpu, title: "AI Services", body: "Voice agents and receptionists that answer, qualify, and resolve — 24/7.", to: "/services/ai-customer-service-rep" },
-  { icon: ShieldCheck, title: "Security", body: "Network, endpoint, and physical security engineered against real threats.", to: "/services/network-cyber-security" },
-  { icon: PhoneCall, title: "Voice", body: "UCaaS and contact-center platforms that make every conversation count.", to: "/services/ucaas" },
-  { icon: Wifi, title: "Connectivity", body: "Carrier-grade broadband and SD-WAN with the SLAs to back them up.", to: "/services/business-broadband" },
-  { icon: Cable, title: "Data Cabling", body: "Structured cabling and fiber, tested and certified end to end.", to: "/services/data-cabling" },
+  { icon: Cpu, title: "AI Services", body: "Voice agents and receptionists that answer, qualify, and resolve — 24/7.", to: "/services/ai-customer-service-rep", cta: "See what a missed call costs you" },
+  { icon: ShieldCheck, title: "Security", body: "Network, endpoint, and physical security engineered against real threats.", to: "/services/network-cyber-security", cta: "Get a free vulnerability scan" },
+  { icon: PhoneCall, title: "Voice", body: "UCaaS and contact-center platforms that make every conversation count.", to: "/services/ucaas", cta: "Compare your current phone costs" },
+  { icon: Wifi, title: "Connectivity", body: "Carrier-grade broadband and SD-WAN with the SLAs to back them up.", to: "/services/business-broadband", cta: "Get a real quote, not a sales sheet" },
+  { icon: Cable, title: "Data Cabling", body: "Structured cabling and fiber, tested and certified end to end.", to: "/services/data-cabling", cta: "Get a fixed-price design" },
 ];
 
 const stats = [
@@ -76,9 +76,13 @@ function Home() {
             AI, security, voice, connectivity, and cabling — delivered by a single accountable partner
             to SMBs and mid-market businesses across Ontario and Canada.
           </p>
+          <p className="mt-6 font-medium text-peak max-w-2xl">
+            The average business loses $25,000/month in missed after-hours calls alone. Find out what
+            yours are costing you.
+          </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link to="/contact" className="inline-flex items-center gap-2 rounded-md bg-ink px-6 py-3.5 text-sm font-medium text-white hover:bg-charcoal transition-colors">
-              Talk to an Expert <ArrowRight className="h-4 w-4" />
+              Get My Free Revenue Audit <ArrowRight className="h-4 w-4" />
             </Link>
             <Link to="/about" className="inline-flex items-center gap-2 rounded-md border border-border px-6 py-3.5 text-sm font-medium text-ink hover:bg-stone">
               Explore services
@@ -147,7 +151,7 @@ function Home() {
                 <h3 className="mt-6 font-display font-semibold text-xl">{p.title}</h3>
                 <p className="mt-2 text-slate-body text-[15px]">{p.body}</p>
                 <div className="mt-6 inline-flex items-center gap-1 text-sm text-ink font-medium">
-                  Explore <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-0.5 transition-transform" />
+                  {p.cta} <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-0.5 transition-transform" />
                 </div>
               </Link>
             ))}
