@@ -29,6 +29,18 @@ export const Route = createFileRoute("/services/ai-customer-service-rep")({
         { value: "<3s", label: "Response time" },
         { value: "40+", label: "Languages" },
       ]}
+      afterHero={
+        <section className="container-page pb-16 md:pb-24">
+          <div className="bg-stone border-l-4 border-peak-deep p-6 md:p-8 rounded-md">
+            <p className="text-[15px] md:text-base text-charcoal max-w-3xl">
+              A human-resolved support ticket typically costs <span className="font-semibold text-ink">$6–$22</span> depending on complexity (industry benchmark, 2026). At 70% first-contact resolution, a team handling 1,000 tickets/month could see roughly <span className="font-semibold text-ink">$4,200–$15,400 a month</span> back in support costs — before counting faster response times and happier customers.
+            </p>
+            <p className="mt-4 text-sm text-slate-body">
+              Actual savings depend on your current ticket volume, complexity mix, and agent cost — ask us for a number specific to your team.
+            </p>
+          </div>
+        </section>
+      }
       features={[
         { title: "Trained on your knowledge base", body: "Ingests your docs, policies, and past tickets. Answers with your voice, not a generic model's." },
         { title: "Multi-channel by default", body: "One agent across web chat, email, SMS, and voice. Consistent answers, unified conversation history." },
@@ -60,8 +72,9 @@ export const Route = createFileRoute("/services/ai-customer-service-rep")({
         { q: "Do I need to replace my current help desk?", a: "No. The AI rep sits in front of your existing tools — Zendesk, Freshdesk, Salesforce, or custom — and only escalates the tickets that need a human." },
       ]}
       cta={{
-        title: "See what your support team could stop doing.",
+        title: "See what your support team could stop doing — and what it's costing you not to.",
         body: "Book a 30-minute assessment. We'll audit your ticket volume, identify the top deflection candidates, and give you a realistic estimate of what an AI rep can and can't handle.",
+        primary: "Get My Free Ticket-Deflection Estimate",
       }}
     />
   ),
