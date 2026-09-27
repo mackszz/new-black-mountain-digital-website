@@ -23,6 +23,19 @@ export const Route = createFileRoute("/services/network-cyber-security")({
       eyebrow="Network & Cyber Security — MSSP"
       title="Managed security services provider for Canadian business."
       lede="As your MSSP, we run firewall management, endpoint protection, email security, and 24/7 SOC monitoring — managed security services engineered for Ontario SMBs and mid-market teams that can't afford a breach or a full-time security staff."
+      afterHero={
+        <section className="container-page pb-16 md:pb-24">
+          <div className="bg-charcoal rounded-md p-8 md:p-12 shadow-lg">
+            <h2 className="text-2xl md:text-3xl font-display font-semibold text-white">The Cost of a Breach</h2>
+            <div className="mt-6 font-display font-bold text-peak text-5xl md:text-7xl leading-none">
+              $1.6M&ndash;$3.3M
+            </div>
+            <p className="mt-6 max-w-3xl text-[15px] md:text-base text-white/85 leading-relaxed">
+              The average cost of a data breach for a small or mid-sized business (TechAisle SMB research, 2025; IBM's last size-segmented data for organizations under 500 employees, 2023). The often-quoted <span className="font-semibold text-white">$4.99M</span> global average (IBM, 2026) is real, but it's pulled up by massive enterprise breaches &mdash; the SMB number is still the one that should worry you, and it's most of a decade's revenue for most of our clients.
+            </p>
+          </div>
+        </section>
+      }
       stats={[
         { value: "24/7", label: "MSSP SOC monitoring" },
         { value: "<15m", label: "Critical incident response" },
