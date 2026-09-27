@@ -1,11 +1,12 @@
 import { Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 
-export function CTABand({ eyebrow, title, body, primary = "Talk to an Expert" }: {
+export function CTABand({ eyebrow, title, body, primary = "Talk to an Expert", secondary }: {
   eyebrow?: string;
   title: string;
   body?: string;
   primary?: string;
+  secondary?: { label: string; to: string };
 }) {
   return (
     <section className="bg-ink text-white">
@@ -28,6 +29,14 @@ export function CTABand({ eyebrow, title, body, primary = "Talk to an Expert" }:
               Call 905-844-6929
             </a>
           </div>
+          {secondary && (
+            <Link
+              to={secondary.to}
+              className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-peak hover:text-peak-deep transition-colors"
+            >
+              {secondary.label}
+            </Link>
+          )}
         </div>
       </div>
     </section>
