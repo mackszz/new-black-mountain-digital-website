@@ -1,10 +1,11 @@
+import type { ReactNode } from "react";
 import { Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 
 export function CTABand({ eyebrow, title, body, primary = "Talk to an Expert", secondary }: {
   eyebrow?: string;
   title: string;
-  body?: string;
+  body?: ReactNode;
   primary?: string;
   secondary?: { label: string; to: string };
 }) {

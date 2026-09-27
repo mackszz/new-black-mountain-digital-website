@@ -18,7 +18,7 @@ export interface ServicePageProps {
   capabilities: string[];
   related: { to: string; label: string; desc: string }[];
   faq: { q: string; a: string }[];
-  cta: { title: string; body: string; primary?: string; secondary?: { label: string; to: string } };
+  cta: { title: string; body?: ReactNode; primary?: string; secondary?: { label: string; to: string } };
   extra?: ReactNode;
 }
 
