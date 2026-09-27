@@ -23,6 +23,15 @@ export const Route = createFileRoute("/services/business-broadband")({
       eyebrow="Business Broadband"
       title="Business internet that's actually built for business."
       lede="Dedicated fiber, DIA, and cable broadband across Canada — SLA-backed, redundancy-engineered, and sourced from the right carrier for each site. We integrate carriers and platforms that fit your business."
+      afterHero={
+        <section className="container-page pb-16 md:pb-24">
+          <div className="bg-stone border-l-4 border-peak-deep p-6 md:p-8 rounded-md">
+            <p className="max-w-3xl text-[15px] text-charcoal">
+              Downtime costs the average small business <span className="font-semibold text-ink">$137&ndash;$427 per minute</span> &mdash; roughly <span className="font-semibold text-ink">$8,200&ndash;$25,600 an hour</span> &mdash; in lost transactions and idle staff time (widely-cited SMB downtime benchmark data, 2026). Our 4-hour MTTR and enforceable SLA credits exist to keep that number as close to zero as possible.
+            </p>
+          </div>
+        </section>
+      }
       stats={[
         { value: "99.99%", label: "Uptime SLA (DIA)" },
         { value: "10 Gbps", label: "Available speeds" },
@@ -55,7 +64,7 @@ export const Route = createFileRoute("/services/business-broadband")({
       faq={[
         { q: "Why buy through you instead of the carrier direct?", a: "Because carriers only sell their own circuits. We compare them per site, negotiate the terms, consolidate billing, and give you one number to call when something breaks — regardless of whose network the problem is on." },
         { q: "What does 'dedicated' actually mean?", a: "A dedicated internet access (DIA) circuit gives you symmetric bandwidth that isn't shared with your neighbours, with contractual guarantees on uptime and latency. Regular business broadband is best-effort and shared." },
-        { q: "How is uptime enforced?", a: "SLAs include monthly credits for downtime beyond the guarantee, plus committed mean-time-to-repair windows. We track them for you and pursue the credits automatically." },
+        { q: "How is uptime enforced?", a: "SLAs include monthly credits for downtime beyond the guarantee, plus committed mean-time-to-repair windows. We track them for you and pursue the credits automatically. Every hour of downtime beyond your SLA comes back to you as a credit — you're never just eating the cost of someone else's outage." },
         { q: "Can you help with multi-site rollouts?", a: "That's our sweet spot. We handle site surveys, cross-carrier orders, staggered installs, cutover coordination, and one consolidated bill across every location." },
         { q: "Do you provide backup / failover?", a: "Yes — diverse-path secondary circuits, cellular failover routers, or both. For SD-WAN environments, we engineer failover into the network policy itself." },
       ]}
