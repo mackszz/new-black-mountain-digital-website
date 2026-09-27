@@ -69,15 +69,19 @@ export const Route = createFileRoute("/services/network-cyber-security")({
       faq={[
         { q: "What is an MSSP, and do we need one?", a: "A managed security services provider runs your security tooling and monitoring as an ongoing service — firewall, endpoints, email, and a 24/7 SOC — instead of you hiring and retaining that team in-house. If you have systems worth protecting but no dedicated security staff, an MSSP is the practical route." },
         { q: "How is an MSSP different from our IT provider?", a: "General IT keeps systems running. A managed security services provider is accountable specifically for detection, response, and posture — with a SOC, defined escalation paths, and security reporting your IT contract usually doesn't include." },
-        { q: "Do I need this if I already have antivirus?", a: "Antivirus catches known malware. It doesn't catch phishing, credential theft, ransomware behaviour, or attacker persistence — which is how most breaches actually unfold. Modern security is layered, and monitored." },
+        { q: "Do I need this if I already have antivirus?", a: "Antivirus catches known malware. It doesn't catch phishing, credential theft, ransomware behaviour, or attacker persistence — which is how most breaches actually unfold. Modern security is layered, and monitored. The gap between antivirus and managed detection is exactly where most six-and-seven-figure breach costs originate." },
         { q: "How fast can managed security services be deployed?", a: "Firewall and endpoint protection can be operational in one to two weeks. Full MSSP SOC monitoring and process integration typically completes inside 30 days." },
         { q: "Does this help with PIPEDA compliance?", a: "Yes. We align controls, documentation, and incident-response processes to PIPEDA requirements, and provide the artifacts you'd need in a regulatory review." },
         { q: "What happens during an incident?", a: "Our SOC contains the threat, notifies your team on your defined escalation path, and works through remediation and reporting with you — all under a documented incident-response plan." },
         { q: "Can you work with our existing IT team?", a: "That's the most common arrangement. We become the managed security layer your internal team doesn't have the bandwidth or specialization to run themselves." },
       ]}
       cta={{
-        title: "Talk to a managed security services provider.",
-        body: "A no-cost external vulnerability scan and 45-minute review with an MSSP security specialist. You'll leave with a prioritized list — whether you engage us or not.",
+        title: "Find out what a breach would actually cost you — before one happens.",
+        body: (
+          <>
+            A <strong className="text-white">no-cost</strong> external vulnerability scan and 45-minute review with an MSSP security specialist. You'll leave with a prioritized list — whether you engage us or not.
+          </>
+        ),
       }}
     />
   ),
