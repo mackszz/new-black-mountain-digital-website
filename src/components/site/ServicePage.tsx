@@ -18,7 +18,7 @@ export interface ServicePageProps {
   capabilities: string[];
   related: { to: string; label: string; desc: string }[];
   faq: { q: string; a: string }[];
-  cta: { title: string; body: string; primary?: string };
+  cta: { title: string; body: string; primary?: string; secondary?: { label: string; to: string } };
   extra?: ReactNode;
 }
 
@@ -147,7 +147,7 @@ export function ServicePage(p: ServicePageProps) {
       )}
 
       <FAQ items={p.faq} />
-      <CTABand title={p.cta.title} body={p.cta.body} primary={p.cta.primary} />
+      <CTABand title={p.cta.title} body={p.cta.body} primary={p.cta.primary} secondary={p.cta.secondary} />
     </PageShell>
   );
 }

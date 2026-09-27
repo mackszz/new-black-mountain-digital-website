@@ -23,6 +23,30 @@ export const Route = createFileRoute("/services/ucaas")({
       eyebrow="UCaaS"
       title="Voice, video, and messaging on one platform. No wires attached."
       lede="A cloud-hosted business phone system that unifies calling, meetings, chat, and SMS — with the number-portability, carrier relationships, and reliability of a telecom company that's been doing this since 1996."
+      afterHero={
+        <section className="container-page pb-16 md:pb-24">
+          <div className="bg-stone border-l-4 border-peak-deep p-6 md:p-8 rounded-md">
+            <h2 className="text-2xl md:text-3xl font-display font-semibold">Legacy vs. Cloud</h2>
+            <div className="mt-6 grid gap-6 md:grid-cols-2">
+              <div className="bg-card border border-border rounded-md p-6">
+                <div className="text-xs uppercase tracking-widest text-slate-body">Legacy on-prem PBX</div>
+                <p className="mt-3 text-[15px] text-charcoal">
+                  <span className="font-semibold text-ink">$50,000&ndash;$62,000</span> upfront for hardware and installation, plus <span className="font-semibold text-ink">$245&ndash;$1,567/month</span> in ongoing line and maintenance fees, depending on team size.
+                </p>
+              </div>
+              <div className="bg-card border border-peak-deep rounded-md p-6">
+                <div className="text-xs uppercase tracking-widest text-peak-deep">Cloud UCaaS</div>
+                <p className="mt-3 text-[15px] text-charcoal">
+                  <span className="font-semibold text-ink">$0</span> upfront. Typically <span className="font-semibold text-ink">$20&ndash;$40 per seat/month</span>, all-in, with no hardware to maintain or refresh.
+                </p>
+              </div>
+            </div>
+            <p className="mt-5 text-sm text-slate-body">
+              Source: JustCall PBX cost benchmarks, 2026; Eastern Management Group UCaaS pricing research.
+            </p>
+          </div>
+        </section>
+      }
       stats={[
         { value: "99.999%", label: "Uptime SLA" },
         { value: "1-day", label: "Number porting typical" },
@@ -60,8 +84,9 @@ export const Route = createFileRoute("/services/ucaas")({
         { q: "What happens if the internet goes down?", a: "Calls auto-fail-over to mobile apps or a designated cellular number. With our SD-WAN, we can also engineer transport redundancy on the network layer itself." },
       ]}
       cta={{
-        title: "Move your business phone system to the cloud — cleanly.",
+        title: "Move your business phone system to the cloud — and stop paying for hardware you don't need.",
         body: "We'll audit your current voice environment, size your connectivity, and run the port with zero downtime. Then we support it. That's the whole deal.",
+        secondary: { label: "See what you're currently spending on legacy voice →", to: "/contact" },
       }}
     />
   ),
