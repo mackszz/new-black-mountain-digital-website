@@ -23,6 +23,16 @@ export const Route = createFileRoute("/services/physical-security")({
       eyebrow="Physical Security"
       title="Cameras that record what matters. Doors that only open for the right people."
       lede="IP video surveillance, cloud-managed access control, and intrusion detection — designed for your building, integrated with your network, and supported by the same team that runs your cyber security."
+      afterHero={
+        <section className="container-page pb-16 md:pb-24">
+          <div className="bg-stone border-l-4 border-peak-deep p-6 md:p-8 rounded-md">
+            <h2 className="text-2xl md:text-3xl font-display font-semibold">What It's Worth Beyond Security</h2>
+            <p className="mt-5 max-w-3xl text-[15px] text-charcoal">
+              Commercial insurers commonly offer <span className="font-semibold text-ink">5&ndash;20% premium reductions</span> for professionally monitored camera and access-control systems (industry-standard range across commercial property/liability underwriting, 2025&ndash;2026) &mdash; on top of the theft and liability protection itself. Ask your broker what your specific carrier offers; we'll give you the documentation they'll ask for.
+            </p>
+          </div>
+        </section>
+      }
       stats={[
         { value: "4K", label: "Camera resolution" },
         { value: "30 days+", label: "Retention (configurable)" },
@@ -60,7 +70,7 @@ export const Route = createFileRoute("/services/physical-security")({
         { q: "Is footage stored in Canada?", a: "Yes — Canadian-hosted storage is available and is our default for privacy-sensitive deployments." },
       ]}
       cta={{
-        title: "One walk-through. One design. One partner.",
+        title: "One walk-through could lower your premium and your risk.",
         body: "We'll survey your facility, map camera coverage, review access points, and give you a phased plan you can budget against.",
       }}
     />
