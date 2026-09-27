@@ -23,6 +23,16 @@ export const Route = createFileRoute("/services/cx")({
       eyebrow="CX"
       title="A contact center your agents don't dread using."
       lede="Omnichannel customer experience platforms — voice, chat, email, SMS, and AI-assist — that plug into your CRM, respect your workflows, and give supervisors the data they actually need."
+      afterHero={
+        <section className="container-page pb-16 md:pb-24">
+          <div className="bg-stone border-l-4 border-peak-deep p-6 md:p-8 rounded-md">
+            <h2 className="text-2xl md:text-3xl font-display font-semibold">What Better Routing Is Worth</h2>
+            <p className="mt-5 max-w-3xl text-[15px] text-charcoal">
+              A fully-loaded contact-center agent typically costs <span className="font-semibold text-ink">$52,000&ndash;$78,000 a year</span> (Forrester Total Cost Analysis, 2025) &mdash; roughly <span className="font-semibold text-ink">$25&ndash;$37/hour</span>. Shaving even <span className="font-semibold text-ink">30 seconds</span> off average handle time across a 10-agent team taking 40 calls/day each adds up to real monthly savings in agent time alone &mdash; before counting the customers you keep instead of losing to a bad transfer. Ask us to run the number for your team's actual volume.
+            </p>
+          </div>
+        </section>
+      }
       stats={[
         { value: "8+", label: "Channels unified" },
         { value: "Live", label: "Supervisor dashboards" },
@@ -79,8 +89,9 @@ export const Route = createFileRoute("/services/cx")({
         { q: "Can it handle both inbound and outbound?", a: "Yes. Inbound queuing, outbound campaigns, and blended agents on one platform — with the compliance controls (DNC, throttling, disclosure) that regulated outbound requires." },
       ]}
       cta={{
-        title: "Get customer conversations under one roof.",
+        title: "Get customer conversations under one roof — and cut what fragmentation is costing you.",
         body: "Bring us your current tool sprawl and volume patterns. We'll design a CX architecture that consolidates what you have and adds what you're missing.",
+        primary: "Get My Free CX Cost Assessment",
       }}
     />
   ),
