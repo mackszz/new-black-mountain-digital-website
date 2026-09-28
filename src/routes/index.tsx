@@ -80,12 +80,17 @@ function Home() {
             The average business loses $25,000/month in missed after-hours calls alone. Find out what
             yours are costing you.
           </p>
-          <div className="mt-8 flex flex-wrap gap-3">
+          <div className="mt-8 flex flex-wrap items-center gap-3">
             <Link to="/contact" className="inline-flex items-center gap-2 rounded-md bg-ink px-6 py-3.5 text-sm font-medium text-white hover:bg-charcoal transition-colors">
-              Get My Free Revenue Audit <ArrowRight className="h-4 w-4" />
+              Talk to an Expert <ArrowRight className="h-4 w-4" />
             </Link>
             <Link to="/about" className="inline-flex items-center gap-2 rounded-md border border-border px-6 py-3.5 text-sm font-medium text-ink hover:bg-stone">
               Explore services
+            </Link>
+          </div>
+          <div className="mt-4">
+            <Link to="/services/ai-receptionist" className="inline-flex items-center gap-1 text-sm text-peak hover:text-peak-deep transition-colors">
+              See What Missed Calls Are Costing You <ArrowRight className="h-3.5 w-3.5" />
             </Link>
           </div>
         </div>
