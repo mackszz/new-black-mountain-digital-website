@@ -83,7 +83,7 @@ export const Route = createFileRoute("/services/ai-receptionist")({
       cta={{
         title: "Find out what your voicemail is costing you.",
         body: "We'll listen to a sample of your recent inbound calls, estimate what you're losing to voicemail, and show you what an AI receptionist would handle differently.",
-        primary: "Get My Free Missed-Call Revenue Audit",
+        primary: "See What Missed Calls Are Costing You",
       }}
     />
   ),
