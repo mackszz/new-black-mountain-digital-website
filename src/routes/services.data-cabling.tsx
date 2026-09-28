@@ -24,6 +24,15 @@ export const Route = createFileRoute("/services/data-cabling")({
       eyebrow="Data Cabling"
       title="The physical layer, done properly the first time."
       lede="Structured cabling, fiber optic installation, and cable management — designed, installed, tested, and certified against TIA/EIA standards by cabling teams that started this business in 1996."
+      afterHero={
+        <section className="container-page pb-16 md:pb-24">
+          <div className="bg-stone border-l-4 border-peak-deep p-6 md:p-8 rounded-md">
+            <p className="max-w-3xl text-[15px] text-charcoal">
+              Uncertified cabling is one of the most common causes of premature network issues and costly rework &mdash; it's also the reason we <span className="font-semibold text-ink">test and certify 100% of drops against TIA/EIA-568 standards</span>. Our 25-year manufacturer warranty exists because we don't plan on a redo.
+            </p>
+          </div>
+        </section>
+      }
       stats={[
         { value: "Cat6A", label: "Standard drop" },
         { value: "OM4/OS2", label: "Fiber offerings" },
@@ -82,7 +91,11 @@ export const Route = createFileRoute("/services/data-cabling")({
       ]}
       cta={{
         title: "Get the physical layer right.",
-        body: "Send us the floor plan or a site walk-through. We'll come back with a design, a cable count, and a fixed price you can build a budget around.",
+        body: (
+          <>
+            Send us the floor plan or a site walk-through. We'll come back with a design, a cable count, and a <strong className="font-semibold text-white">fixed price</strong> you can build a budget around.
+          </>
+        ),
       }}
     />
   ),
