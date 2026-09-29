@@ -38,7 +38,7 @@ export const Route = createFileRoute("/services/sd-wan")({
         { title: "Central visibility", body: "One dashboard for every site, every circuit, every application — with SLA and application-performance history." },
       ]}
       capabilities={[
-        "Fortinet, VeloCloud, Meraki, and Cato options",
+        "Fortinet, Meraki, and Cato options",
         "Hybrid WAN (MPLS + internet)",
         "Direct cloud on-ramps (AWS, Azure)",
         "Segmentation and micro-perimeters",
