@@ -1,5 +1,4 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Check } from "lucide-react";
 import { ServicePage } from "@/components/site/ServicePage";
 
 export const Route = createFileRoute("/services/physical-security")({
@@ -47,6 +46,7 @@ export const Route = createFileRoute("/services/physical-security")({
         { title: "Integrated with IT", body: "Cameras and access panels ride your network with the security posture our team already manages." },
         { title: "Compliance & retention", body: "Configurable retention windows and access logs to meet insurance, legal, and privacy requirements." },
         { title: "One partner, one bill", body: "Design, cabling, install, activation, monitoring, and warranty — through Black Mountain Digital, end to end." },
+        { title: "NDAA-compliant equipment only", body: "We only supply cameras, recorders, and access panels free of manufacturers restricted under Section 889 of the U.S. NDAA." },
       ]}
       capabilities={[
         "Site walkthrough & camera coverage design",
