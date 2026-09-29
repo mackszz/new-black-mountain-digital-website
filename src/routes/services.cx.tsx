@@ -37,7 +37,7 @@ export const Route = createFileRoute("/services/cx")({
         { value: "8+", label: "Channels unified" },
         { value: "Live", label: "Supervisor dashboards" },
         { value: "AI", label: "Agent assist & QA" },
-        { value: "PIPEDA", label: "Aligned deployments" },
+        { value: "PIPEDA", label: "Canadian privacy compliance" },
       ]}
       features={[
         { title: "Omnichannel routing", body: "Voice, chat, email, SMS, and social — routed by skill, priority, and customer value on one unified queue." },
