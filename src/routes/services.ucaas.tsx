@@ -58,7 +58,7 @@ export const Route = createFileRoute("/services/ucaas")({
         { title: "Video meetings included", body: "HD video, screen share, and recording built into the same client. No second subscription for meetings." },
         { title: "Team messaging", body: "Threaded chat, channels, and file sharing so voice, video, and text live in one workspace." },
         { title: "Carrier-grade routing", body: "Redundant, geographically distributed voice infrastructure — the same discipline behind our telecom origins." },
-        { title: "CRM & Microsoft 365 integration", body: "Native connectors for Salesforce, HubSpot, Teams, and Outlook. Click-to-call, screen-pops, activity logging." },
+        { title: "CRM integration", body: "Native connectors for Salesforce, HubSpot, Teams, and Outlook. Click-to-call, screen-pops, activity logging." },
         { title: "SMS & MMS from your business line", body: "Text customers from the same number they call — no personal phones, full compliance and archival." },
       ]}
       capabilities={[
