@@ -1,5 +1,4 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Check } from "lucide-react";
 import { ServicePage } from "@/components/site/ServicePage";
 
 export const Route = createFileRoute("/services/physical-security")({
@@ -47,6 +46,7 @@ export const Route = createFileRoute("/services/physical-security")({
         { title: "Integrated with IT", body: "Cameras and access panels ride your network with the security posture our team already manages." },
         { title: "Compliance & retention", body: "Configurable retention windows and access logs to meet insurance, legal, and privacy requirements." },
         { title: "One partner, one bill", body: "Design, cabling, install, activation, monitoring, and warranty — through Black Mountain Digital, end to end." },
+        { title: "NDAA-compliant equipment only", body: "We only supply cameras, recorders, and access panels free of manufacturers restricted under Section 889 of the U.S. NDAA." },
       ]}
       capabilities={[
         "Site walkthrough & camera coverage design",
@@ -58,37 +58,6 @@ export const Route = createFileRoute("/services/physical-security")({
         "Alarm monitoring",
         "Multi-site remote administration",
       ]}
-      extra={
-        <section className="container-page border-t border-border py-20">
-          <div className="grid gap-10 lg:grid-cols-3">
-            <div>
-              <div className="text-xs uppercase tracking-widest text-peak-deep mb-3">NDAA Compliance</div>
-              <h2 className="text-3xl md:text-4xl font-display font-semibold">Hardware that won't block your next contract.</h2>
-            </div>
-            <div className="lg:col-span-2">
-              <p className="text-[15px] text-charcoal max-w-3xl">
-                Section 889 of the U.S. National Defense Authorization Act (NDAA) prohibits video surveillance and telecommunications equipment from certain Chinese manufacturers — Hikvision, Dahua, Huawei, ZTE and others — from being used in federal facilities and by organizations working on U.S. federal contracts.
-              </p>
-              <p className="mt-4 text-[15px] text-charcoal max-w-3xl">
-                If you bid on U.S. government work, operate under a U.S. parent company, or simply want to avoid equipment that has faced procurement bans and documented vulnerabilities, NDAA compliance is the specification to hold. We design and install camera and access-control systems on NDAA-compliant hardware from manufacturers such as Axis, Bosch, Avigilon and Hanwha Vision — and we'll provide the compliance documentation your procurement or legal team can file directly.
-              </p>
-              <ul className="mt-8 grid gap-3 sm:grid-cols-2">
-                {[
-                  "NDAA Section 889-compliant cameras, recorders and access panels",
-                  "Compliance documentation prepared for procurement and audit files",
-                  "No banned OEM components hiding under a rebranded label",
-                  "Canadian data residency options for privacy-sensitive deployments",
-                ].map((c) => (
-                  <li key={c} className="flex gap-3 items-start">
-                    <Check className="h-4 w-4 text-peak-deep mt-1 shrink-0" />
-                    <span className="text-[15px] text-charcoal">{c}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </section>
-      }
       related={[
         { to: "/services/network-cyber-security", label: "Network & Cyber Security", desc: "Protect the network your cameras and access panels ride on." },
         { to: "/services/data-cabling", label: "Data Cabling", desc: "Certified structured cabling for every camera drop and door reader." },
@@ -100,7 +69,6 @@ export const Route = createFileRoute("/services/physical-security")({
         { q: "Who monitors alarms after hours?", a: "We arrange ULC-listed alarm monitoring aligned to your response protocol — from silent verify-before-dispatch to guard response." },
         { q: "How long is footage kept?", a: "Standard is 30 days. We configure retention to meet your insurance, industry, or legal requirements — commonly 60 to 90 days for regulated environments." },
         { q: "Is footage stored in Canada?", a: "Yes — Canadian-hosted storage is available and is our default for privacy-sensitive deployments." },
-        { q: "What does NDAA compliance mean for my cameras?", a: "It means the hardware is free of components from manufacturers restricted under Section 889 of the U.S. NDAA, such as Hikvision, Dahua, Huawei and ZTE. If you touch U.S. federal contracts or want to eliminate known-problem equipment from your supply chain, NDAA-compliant gear is the safe specification — and we document it for your procurement file." },
       ]}
       cta={{
         title: "One walk-through could lower your premium and your risk.",
