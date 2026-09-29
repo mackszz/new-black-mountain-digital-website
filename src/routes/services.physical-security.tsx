@@ -44,14 +44,14 @@ export const Route = createFileRoute("/services/physical-security")({
         { title: "Cloud access control", body: "Manage doors from anywhere. Instantly revoke a badge, grant temporary access, or set schedules — no more physical keys." },
         { title: "Intrusion detection", body: "Door, glass-break, and motion sensors tied to a monitored response protocol you define." },
         { title: "Integrated with IT", body: "Cameras and access panels ride your network with the security posture our team already manages." },
-        { title: "Compliance &amp; retention", body: "Configurable retention windows and access logs to meet insurance, legal, and privacy requirements." },
+        { title: "Compliance & retention", body: "Configurable retention windows and access logs to meet insurance, legal, and privacy requirements." },
         { title: "One partner, one bill", body: "Design, cabling, install, activation, monitoring, and warranty — through Black Mountain Digital, end to end." },
       ]}
       capabilities={[
-        "Site walkthrough &amp; camera coverage design",
+        "Site walkthrough & camera coverage design",
         "Structured low-voltage cabling",
         "Cloud NVR and analytics",
-        "Mobile app for guards &amp; managers",
+        "Mobile app for guards & managers",
         "Visitor management",
         "Elevator and gate integration",
         "Alarm monitoring",

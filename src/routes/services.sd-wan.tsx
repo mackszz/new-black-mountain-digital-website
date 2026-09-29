@@ -32,7 +32,7 @@ export const Route = createFileRoute("/services/sd-wan")({
       features={[
         { title: "Intelligent path selection", body: "Traffic routes over the best-performing link in real time — fiber, cable, or LTE — based on latency, jitter, and loss, not a static config." },
         { title: "Sub-second failover", body: "When a circuit degrades, sessions cut over without dropping voice or video calls. Users don't notice." },
-        { title: "QoS for voice &amp; video", body: "UCaaS, Teams, Zoom, and CX traffic get guaranteed priority so quality doesn't collapse when the network is busy." },
+        { title: "QoS for voice & video", body: "UCaaS, Teams, Zoom, and CX traffic get guaranteed priority so quality doesn't collapse when the network is busy." },
         { title: "Zero-touch branch deploys", body: "Ship a device to a new site, plug it in, and it self-configures against policy — no truck roll, no local IT required." },
         { title: "Integrated SASE / security", body: "Segment traffic, enforce zero-trust policy, and inspect at the edge — SD-WAN and security on one platform, not two vendors." },
         { title: "Central visibility", body: "One dashboard for every site, every circuit, every application — with SLA and application-performance history." },
@@ -45,7 +45,7 @@ export const Route = createFileRoute("/services/sd-wan")({
         "Application-aware routing",
         "Remote worker VPN / ZTNA",
         "24/7 network operations",
-        "Change management &amp; audit trail",
+        "Change management & audit trail",
       ]}
       extra={
         <section className="border-t border-border bg-stone/60">

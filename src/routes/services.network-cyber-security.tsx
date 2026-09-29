@@ -44,9 +44,9 @@ export const Route = createFileRoute("/services/network-cyber-security")({
       ]}
       features={[
         { title: "Managed firewall", body: "Enterprise firewalls deployed, tuned, and continuously maintained by our MSSP team. Rulesets reviewed monthly, not quarterly." },
-        { title: "Endpoint detection &amp; response", body: "Managed EDR on every device — laptops, servers, mobile. Behavioural detection, automated containment, forensic history." },
+        { title: "Endpoint detection & response", body: "Managed EDR on every device — laptops, servers, mobile. Behavioural detection, automated containment, forensic history." },
         { title: "24/7 threat monitoring", body: "A dedicated SOC watches your alerts, triages the noise, and calls you when something matters — the core of our managed security services." },
-        { title: "Email &amp; phishing defence", body: "Anti-phishing, impersonation protection, and quarantine review — the #1 threat vector, actively defended." },
+        { title: "Email & phishing defence", body: "Anti-phishing, impersonation protection, and quarantine review — the #1 threat vector, actively defended." },
         { title: "Vulnerability management", body: "Continuous scanning of your external and internal surface. Patches prioritized by real-world exploitability." },
         { title: "Compliance-ready posture", body: "Documentation, policies, and controls aligned to PIPEDA and, on request, SOC 2 / ISO 27001 readiness." },
       ]}
@@ -57,7 +57,7 @@ export const Route = createFileRoute("/services/network-cyber-security")({
         "24/7 Security Operations Center",
         "Multi-factor authentication rollout",
         "Security awareness training",
-        "Backup &amp; ransomware recovery",
+        "Backup & ransomware recovery",
         "Incident response playbook",
         "Penetration testing (annual)",
       ]}

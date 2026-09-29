@@ -37,21 +37,21 @@ export const Route = createFileRoute("/services/data-cabling")({
         { value: "Cat6A", label: "Standard drop" },
         { value: "OM4/OS2", label: "Fiber offerings" },
         { value: "25-yr", label: "Manufacturer warranty" },
-        { value: "100%", label: "Drops tested &amp; certified" },
+        { value: "100%", label: "Drops tested & certified" },
       ]}
       features={[
-        { title: "Structured copper &amp; fiber", body: "Cat6, Cat6A, Cat7, and OM4/OS2 fiber — engineered for today's speeds and the ones coming next." },
-        { title: "Testing &amp; certification", body: "Every drop tested with Fluke-grade equipment and certified against TIA/EIA-568 with reports you can hand to the manufacturer or auditor." },
+        { title: "Structured copper & fiber", body: "Cat6, Cat6A, Cat7, and OM4/OS2 fiber — engineered for today's speeds and the ones coming next." },
+        { title: "Testing & certification", body: "Every drop tested with Fluke-grade equipment and certified against TIA/EIA-568 with reports you can hand to the manufacturer or auditor." },
         { title: "Cable management", body: "Server rooms and IDF closets built to be maintainable — labelled, dressed, and documented, not spaghetti." },
         { title: "Office buildouts", body: "New floor plans wired for voice, data, wireless APs, cameras, and access control in one coordinated install." },
-        { title: "Data center &amp; retrofits", body: "High-density fiber, overhead pathway, and staged migrations that keep production running during the move." },
+        { title: "Data center & retrofits", body: "High-density fiber, overhead pathway, and staged migrations that keep production running during the move." },
         { title: "Manufacturer warranty", body: "Certified installers for major systems — Panduit, CommScope, Belden — with 25-year performance warranties on qualifying jobs." },
       ]}
       capabilities={[
         "Site surveys and pathway design",
-        "Cat6 / Cat6A / Cat7 UTP &amp; STP",
-        "Single-mode &amp; multi-mode fiber",
-        "Fusion splicing &amp; termination",
+        "Cat6 / Cat6A / Cat7 UTP & STP",
+        "Single-mode & multi-mode fiber",
+        "Fusion splicing & termination",
         "Rack, cabinet, and pathway install",
         "AV, camera, and Wi-Fi cabling",
         "As-built documentation and labelling",
@@ -65,8 +65,8 @@ export const Route = createFileRoute("/services/data-cabling")({
               {[
                 { t: "New office buildouts", d: "Full low-voltage design coordinated with GC and electrician timelines." },
                 { t: "Data center migrations", d: "High-density fiber and copper with staged cutover plans." },
-                { t: "Retrofit &amp; renovation", d: "Adding capacity to occupied buildings without disrupting operations." },
-                { t: "Camera &amp; access control", d: "Cabling for the physical security systems we also design and install." },
+                { t: "Retrofit & renovation", d: "Adding capacity to occupied buildings without disrupting operations." },
+                { t: "Camera & access control", d: "Cabling for the physical security systems we also design and install." },
               ].map((p) => (
                 <div key={p.t} className="bg-card border border-border rounded-md p-6">
                   <div className="font-display font-semibold">{p.t}</div>
