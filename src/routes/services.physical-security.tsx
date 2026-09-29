@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Check } from "lucide-react";
 import { ServicePage } from "@/components/site/ServicePage";
 
 export const Route = createFileRoute("/services/physical-security")({
@@ -99,6 +100,7 @@ export const Route = createFileRoute("/services/physical-security")({
         { q: "Who monitors alarms after hours?", a: "We arrange ULC-listed alarm monitoring aligned to your response protocol — from silent verify-before-dispatch to guard response." },
         { q: "How long is footage kept?", a: "Standard is 30 days. We configure retention to meet your insurance, industry, or legal requirements — commonly 60 to 90 days for regulated environments." },
         { q: "Is footage stored in Canada?", a: "Yes — Canadian-hosted storage is available and is our default for privacy-sensitive deployments." },
+        { q: "What does NDAA compliance mean for my cameras?", a: "It means the hardware is free of components from manufacturers restricted under Section 889 of the U.S. NDAA, such as Hikvision, Dahua, Huawei and ZTE. If you touch U.S. federal contracts or want to eliminate known-problem equipment from your supply chain, NDAA-compliant gear is the safe specification — and we document it for your procurement file." },
       ]}
       cta={{
         title: "One walk-through could lower your premium and your risk.",
