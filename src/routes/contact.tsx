@@ -158,7 +158,7 @@ function Contact() {
                   <MapPin className="h-4 w-4 text-peak-deep mt-1 shrink-0" />
                   <div>
                     <div className="text-xs text-slate-body">Serving</div>
-                    <div className="text-ink">Ontario &amp; across Canada</div>
+                    <div className="text-ink">Ontario & across Canada</div>
                   </div>
                 </li>
               </ul>

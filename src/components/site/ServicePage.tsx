@@ -23,7 +23,7 @@ export interface ServicePageProps {
 }
 
 export function ServicePage(p: ServicePageProps) {
-  const stripTags = (s: string) => s.replace(/&amp;/g, "&").replace(/<[^>]*>/g, "");
+  const stripTags = (s: string) => s.replace(/&/g, "&").replace(/<[^>]*>/g, "");
   const jsonLd = [
     {
       "@context": "https://schema.org",

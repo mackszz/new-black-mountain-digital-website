@@ -41,7 +41,7 @@ export const Route = createFileRoute("/services/business-broadband")({
       features={[
         { title: "Vendor-agnostic sourcing", body: "We compare Bell, Rogers, Telus, Cogeco, and regional providers per site, so you get the best fit — not the one we're incentivized to push." },
         { title: "Dedicated internet access", body: "Symmetric bandwidth, static IPs, and enforceable SLAs for latency, jitter, packet loss, and repair windows." },
-        { title: "Redundancy &amp; failover", body: "Diverse-path secondary circuits, LTE / 5G failover, and BGP-managed failover for multi-homed environments." },
+        { title: "Redundancy & failover", body: "Diverse-path secondary circuits, LTE / 5G failover, and BGP-managed failover for multi-homed environments." },
         { title: "One contract, many carriers", body: "Multi-site operations get one master service agreement across every location and provider we source." },
         { title: "24/7 Canadian NOC", body: "When a circuit flaps, our network team opens the ticket with the carrier — you don't wait on hold." },
         { title: "Bundled security", body: "Managed firewall and edge protection can ship with the circuit, so security isn't an afterthought." },
@@ -49,7 +49,7 @@ export const Route = createFileRoute("/services/business-broadband")({
       capabilities={[
         "Fiber, cable, and fixed wireless",
         "Symmetric 100 Mbps – 10 Gbps",
-        "Static IPv4 &amp; IPv6",
+        "Static IPv4 & IPv6",
         "Volume pricing for multi-site deployments",
         "Diverse-path secondary circuits",
         "LTE / 5G failover routers",

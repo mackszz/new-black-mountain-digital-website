@@ -36,13 +36,13 @@ export const Route = createFileRoute("/services/cx")({
       stats={[
         { value: "8+", label: "Channels unified" },
         { value: "Live", label: "Supervisor dashboards" },
-        { value: "AI", label: "Agent assist &amp; QA" },
+        { value: "AI", label: "Agent assist & QA" },
         { value: "PIPEDA", label: "Aligned deployments" },
       ]}
       features={[
         { title: "Omnichannel routing", body: "Voice, chat, email, SMS, and social — routed by skill, priority, and customer value on one unified queue." },
         { title: "AI agent assist", body: "Real-time suggested responses, transcript search, and automated after-call notes so agents focus on the customer, not the keyboard." },
-        { title: "Quality &amp; compliance", body: "100% call recording, AI-assisted QA scoring, and configurable retention for regulated industries." },
+        { title: "Quality & compliance", body: "100% call recording, AI-assisted QA scoring, and configurable retention for regulated industries." },
         { title: "Workforce management", body: "Forecast volume, schedule agents, and track adherence — built for both 10-seat and 500-seat operations." },
         { title: "CRM-native", body: "Salesforce, HubSpot, Dynamics, and custom CRM integrations that surface customer context on the ringing screen." },
         { title: "Real-time analytics", body: "Live wallboards, service-level tracking, and operational dashboards without waiting for tomorrow's report." },
@@ -52,10 +52,10 @@ export const Route = createFileRoute("/services/cx")({
         "Callback / virtual queuing",
         "Outbound campaign dialer",
         "IVR / self-service flows",
-        "Screen &amp; call recording",
-        "Speech &amp; sentiment analytics",
+        "Screen & call recording",
+        "Speech & sentiment analytics",
         "Supervisor whisper / barge",
-        "API &amp; webhook integrations",
+        "API & webhook integrations",
       ]}
       extra={
         <section className="border-t border-border bg-stone/60">

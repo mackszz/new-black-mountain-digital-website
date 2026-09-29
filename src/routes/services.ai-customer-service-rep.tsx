@@ -45,7 +45,7 @@ export const Route = createFileRoute("/services/ai-customer-service-rep")({
         { title: "Trained on your knowledge base", body: "Ingests your docs, policies, and past tickets. Answers with your voice, not a generic model's." },
         { title: "Multi-channel by default", body: "One agent across web chat, email, SMS, and voice. Consistent answers, unified conversation history." },
         { title: "Human handoff, done right", body: "Recognizes complexity, transfers with full context, and hands control to your team without dropping the thread." },
-        { title: "CRM &amp; ticketing integrated", body: "Reads and writes to Salesforce, HubSpot, Zendesk, Freshdesk, and custom systems via API." },
+        { title: "CRM & ticketing integrated", body: "Reads and writes to Salesforce, HubSpot, Zendesk, Freshdesk, and custom systems via API." },
         { title: "Compliance-aware", body: "PIPEDA-aligned data handling, Canadian hosting available, full audit trail on every interaction." },
         { title: "Continuous improvement", body: "Weekly review of missed intents, confidence scores, and drop-off points — tuned by our team, not left on autopilot." },
       ]}
