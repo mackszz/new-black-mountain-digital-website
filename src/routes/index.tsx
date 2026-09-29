@@ -49,7 +49,7 @@ const testimonials = [
     org: "Regional Logistics Company",
   },
   {
-    quote: "The AI receptionist paid for itself in the first quarter. Our team stopped drowning in call transfers.",
+    quote: "Easy to implement, low up-front cost. The AI receptionist was answering for all our locations within days.",
     who: "Operations Manager",
     org: "Multi-location Dental Group",
   },
