@@ -9,41 +9,26 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as IndexRouteImport } from './routes/index'
-import { Route as AboutRouteImport } from './routes/about'
-import { Route as ContactRouteImport } from './routes/contact'
-import { Route as PrivacyRouteImport } from './routes/privacy'
-import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as TermsRouteImport } from './routes/terms'
-import { Route as GuidesAiVsHumanAnsweringServiceRouteImport } from './routes/guides.ai-vs-human-answering-service'
-import { Route as ServicesAiCustomerServiceRepRouteImport } from './routes/services.ai-customer-service-rep'
-import { Route as ServicesAiReceptionistRouteImport } from './routes/services.ai-receptionist'
-import { Route as ServicesBusinessBroadbandRouteImport } from './routes/services.business-broadband'
-import { Route as ServicesCxRouteImport } from './routes/services.cx'
-import { Route as ServicesDataCablingRouteImport } from './routes/services.data-cabling'
-import { Route as ServicesNetworkCyberSecurityRouteImport } from './routes/services.network-cyber-security'
-import { Route as ServicesPhysicalSecurityRouteImport } from './routes/services.physical-security'
-import { Route as ServicesSdWanRouteImport } from './routes/services.sd-wan'
+import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
+import { Route as PrivacyRouteImport } from './routes/privacy'
+import { Route as ContactRouteImport } from './routes/contact'
+import { Route as AboutRouteImport } from './routes/about'
+import { Route as IndexRouteImport } from './routes/index'
 import { Route as ServicesUcaasRouteImport } from './routes/services.ucaas'
+import { Route as ServicesSdWanRouteImport } from './routes/services.sd-wan'
+import { Route as ServicesPhysicalSecurityRouteImport } from './routes/services.physical-security'
+import { Route as ServicesNetworkCyberSecurityRouteImport } from './routes/services.network-cyber-security'
+import { Route as ServicesDataCablingRouteImport } from './routes/services.data-cabling'
+import { Route as ServicesCxRouteImport } from './routes/services.cx'
+import { Route as ServicesBusinessBroadbandRouteImport } from './routes/services.business-broadband'
+import { Route as ServicesAiReceptionistRouteImport } from './routes/services.ai-receptionist'
+import { Route as ServicesAiCustomerServiceRepRouteImport } from './routes/services.ai-customer-service-rep'
+import { Route as GuidesAiVsHumanAnsweringServiceRouteImport } from './routes/guides.ai-vs-human-answering-service'
 
-const IndexRoute = IndexRouteImport.update({
-  id: '/',
-  path: '/',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const AboutRoute = AboutRouteImport.update({
-  id: '/about',
-  path: '/about',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ContactRoute = ContactRouteImport.update({
-  id: '/contact',
-  path: '/contact',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const PrivacyRoute = PrivacyRouteImport.update({
-  id: '/privacy',
-  path: '/privacy',
+const TermsRoute = TermsRouteImport.update({
+  id: '/terms',
+  path: '/terms',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
@@ -51,26 +36,56 @@ const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
   path: '/sitemap.xml',
   getParentRoute: () => rootRouteImport,
 } as any)
-const TermsRoute = TermsRouteImport.update({
-  id: '/terms',
-  path: '/terms',
+const PrivacyRoute = PrivacyRouteImport.update({
+  id: '/privacy',
+  path: '/privacy',
   getParentRoute: () => rootRouteImport,
 } as any)
-const GuidesAiVsHumanAnsweringServiceRoute =
-  GuidesAiVsHumanAnsweringServiceRouteImport.update({
-    id: '/guides/ai-vs-human-answering-service',
-    path: '/guides/ai-vs-human-answering-service',
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AboutRoute = AboutRouteImport.update({
+  id: '/about',
+  path: '/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const IndexRoute = IndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ServicesUcaasRoute = ServicesUcaasRouteImport.update({
+  id: '/services/ucaas',
+  path: '/services/ucaas',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ServicesSdWanRoute = ServicesSdWanRouteImport.update({
+  id: '/services/sd-wan',
+  path: '/services/sd-wan',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ServicesPhysicalSecurityRoute =
+  ServicesPhysicalSecurityRouteImport.update({
+    id: '/services/physical-security',
+    path: '/services/physical-security',
     getParentRoute: () => rootRouteImport,
   } as any)
-const ServicesAiCustomerServiceRepRoute =
-  ServicesAiCustomerServiceRepRouteImport.update({
-    id: '/services/ai-customer-service-rep',
-    path: '/services/ai-customer-service-rep',
+const ServicesNetworkCyberSecurityRoute =
+  ServicesNetworkCyberSecurityRouteImport.update({
+    id: '/services/network-cyber-security',
+    path: '/services/network-cyber-security',
     getParentRoute: () => rootRouteImport,
   } as any)
-const ServicesAiReceptionistRoute = ServicesAiReceptionistRouteImport.update({
-  id: '/services/ai-receptionist',
-  path: '/services/ai-receptionist',
+const ServicesDataCablingRoute = ServicesDataCablingRouteImport.update({
+  id: '/services/data-cabling',
+  path: '/services/data-cabling',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ServicesCxRoute = ServicesCxRouteImport.update({
+  id: '/services/cx',
+  path: '/services/cx',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ServicesBusinessBroadbandRoute =
@@ -79,38 +94,23 @@ const ServicesBusinessBroadbandRoute =
     path: '/services/business-broadband',
     getParentRoute: () => rootRouteImport,
   } as any)
-const ServicesCxRoute = ServicesCxRouteImport.update({
-  id: '/services/cx',
-  path: '/services/cx',
+const ServicesAiReceptionistRoute = ServicesAiReceptionistRouteImport.update({
+  id: '/services/ai-receptionist',
+  path: '/services/ai-receptionist',
   getParentRoute: () => rootRouteImport,
 } as any)
-const ServicesDataCablingRoute = ServicesDataCablingRouteImport.update({
-  id: '/services/data-cabling',
-  path: '/services/data-cabling',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ServicesNetworkCyberSecurityRoute =
-  ServicesNetworkCyberSecurityRouteImport.update({
-    id: '/services/network-cyber-security',
-    path: '/services/network-cyber-security',
+const ServicesAiCustomerServiceRepRoute =
+  ServicesAiCustomerServiceRepRouteImport.update({
+    id: '/services/ai-customer-service-rep',
+    path: '/services/ai-customer-service-rep',
     getParentRoute: () => rootRouteImport,
   } as any)
-const ServicesPhysicalSecurityRoute =
-  ServicesPhysicalSecurityRouteImport.update({
-    id: '/services/physical-security',
-    path: '/services/physical-security',
+const GuidesAiVsHumanAnsweringServiceRoute =
+  GuidesAiVsHumanAnsweringServiceRouteImport.update({
+    id: '/guides/ai-vs-human-answering-service',
+    path: '/guides/ai-vs-human-answering-service',
     getParentRoute: () => rootRouteImport,
   } as any)
-const ServicesSdWanRoute = ServicesSdWanRouteImport.update({
-  id: '/services/sd-wan',
-  path: '/services/sd-wan',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ServicesUcaasRoute = ServicesUcaasRouteImport.update({
-  id: '/services/ucaas',
-  path: '/services/ucaas',
-  getParentRoute: () => rootRouteImport,
-} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -245,32 +245,11 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/': {
-      id: '/'
-      path: '/'
-      fullPath: '/'
-      preLoaderRoute: typeof IndexRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/about': {
-      id: '/about'
-      path: '/about'
-      fullPath: '/about'
-      preLoaderRoute: typeof AboutRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/contact': {
-      id: '/contact'
-      path: '/contact'
-      fullPath: '/contact'
-      preLoaderRoute: typeof ContactRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/privacy': {
-      id: '/privacy'
-      path: '/privacy'
-      fullPath: '/privacy'
-      preLoaderRoute: typeof PrivacyRouteImport
+    '/terms': {
+      id: '/terms'
+      path: '/terms'
+      fullPath: '/terms'
+      preLoaderRoute: typeof TermsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/sitemap.xml': {
@@ -280,67 +259,39 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SitemapDotxmlRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/terms': {
-      id: '/terms'
-      path: '/terms'
-      fullPath: '/terms'
-      preLoaderRoute: typeof TermsRouteImport
+    '/privacy': {
+      id: '/privacy'
+      path: '/privacy'
+      fullPath: '/privacy'
+      preLoaderRoute: typeof PrivacyRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/guides/ai-vs-human-answering-service': {
-      id: '/guides/ai-vs-human-answering-service'
-      path: '/guides/ai-vs-human-answering-service'
-      fullPath: '/guides/ai-vs-human-answering-service'
-      preLoaderRoute: typeof GuidesAiVsHumanAnsweringServiceRouteImport
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/services/ai-customer-service-rep': {
-      id: '/services/ai-customer-service-rep'
-      path: '/services/ai-customer-service-rep'
-      fullPath: '/services/ai-customer-service-rep'
-      preLoaderRoute: typeof ServicesAiCustomerServiceRepRouteImport
+    '/about': {
+      id: '/about'
+      path: '/about'
+      fullPath: '/about'
+      preLoaderRoute: typeof AboutRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/services/ai-receptionist': {
-      id: '/services/ai-receptionist'
-      path: '/services/ai-receptionist'
-      fullPath: '/services/ai-receptionist'
-      preLoaderRoute: typeof ServicesAiReceptionistRouteImport
+    '/': {
+      id: '/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/services/business-broadband': {
-      id: '/services/business-broadband'
-      path: '/services/business-broadband'
-      fullPath: '/services/business-broadband'
-      preLoaderRoute: typeof ServicesBusinessBroadbandRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/services/cx': {
-      id: '/services/cx'
-      path: '/services/cx'
-      fullPath: '/services/cx'
-      preLoaderRoute: typeof ServicesCxRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/services/data-cabling': {
-      id: '/services/data-cabling'
-      path: '/services/data-cabling'
-      fullPath: '/services/data-cabling'
-      preLoaderRoute: typeof ServicesDataCablingRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/services/network-cyber-security': {
-      id: '/services/network-cyber-security'
-      path: '/services/network-cyber-security'
-      fullPath: '/services/network-cyber-security'
-      preLoaderRoute: typeof ServicesNetworkCyberSecurityRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/services/physical-security': {
-      id: '/services/physical-security'
-      path: '/services/physical-security'
-      fullPath: '/services/physical-security'
-      preLoaderRoute: typeof ServicesPhysicalSecurityRouteImport
+    '/services/ucaas': {
+      id: '/services/ucaas'
+      path: '/services/ucaas'
+      fullPath: '/services/ucaas'
+      preLoaderRoute: typeof ServicesUcaasRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/services/sd-wan': {
@@ -350,11 +301,60 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ServicesSdWanRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/services/ucaas': {
-      id: '/services/ucaas'
-      path: '/services/ucaas'
-      fullPath: '/services/ucaas'
-      preLoaderRoute: typeof ServicesUcaasRouteImport
+    '/services/physical-security': {
+      id: '/services/physical-security'
+      path: '/services/physical-security'
+      fullPath: '/services/physical-security'
+      preLoaderRoute: typeof ServicesPhysicalSecurityRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/services/network-cyber-security': {
+      id: '/services/network-cyber-security'
+      path: '/services/network-cyber-security'
+      fullPath: '/services/network-cyber-security'
+      preLoaderRoute: typeof ServicesNetworkCyberSecurityRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/services/data-cabling': {
+      id: '/services/data-cabling'
+      path: '/services/data-cabling'
+      fullPath: '/services/data-cabling'
+      preLoaderRoute: typeof ServicesDataCablingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/services/cx': {
+      id: '/services/cx'
+      path: '/services/cx'
+      fullPath: '/services/cx'
+      preLoaderRoute: typeof ServicesCxRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/services/business-broadband': {
+      id: '/services/business-broadband'
+      path: '/services/business-broadband'
+      fullPath: '/services/business-broadband'
+      preLoaderRoute: typeof ServicesBusinessBroadbandRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/services/ai-receptionist': {
+      id: '/services/ai-receptionist'
+      path: '/services/ai-receptionist'
+      fullPath: '/services/ai-receptionist'
+      preLoaderRoute: typeof ServicesAiReceptionistRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/services/ai-customer-service-rep': {
+      id: '/services/ai-customer-service-rep'
+      path: '/services/ai-customer-service-rep'
+      fullPath: '/services/ai-customer-service-rep'
+      preLoaderRoute: typeof ServicesAiCustomerServiceRepRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/guides/ai-vs-human-answering-service': {
+      id: '/guides/ai-vs-human-answering-service'
+      path: '/guides/ai-vs-human-answering-service'
+      fullPath: '/guides/ai-vs-human-answering-service'
+      preLoaderRoute: typeof GuidesAiVsHumanAnsweringServiceRouteImport
       parentRoute: typeof rootRouteImport
     }
   }
