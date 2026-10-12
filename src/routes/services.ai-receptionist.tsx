@@ -25,29 +25,29 @@ export const Route = createFileRoute("/services/ai-receptionist")({
       lede="A natural-voice AI receptionist that greets callers, qualifies intent, books appointments, and routes to the right team member — without ever putting anyone on hold."
       stats={[
         { value: "100%", label: "Calls answered", note: "= every lead captured, every time" },
-        { value: "0", label: "Voicemails", note: "= $0 lost to calls that never got returned" },
+        { value: "0", label: "Voicemails", note: "= every call a chance to book more" },
         { value: "24/7", label: "After-hours cover" },
         { value: "2 wks", label: "Typical go-live" },
       ]}
       afterHero={
         <section className="container-page pb-16 md:pb-24">
-          <h2 className="text-2xl md:text-3xl font-display font-semibold">The Cost of a Missed Call</h2>
+          <h2 className="text-2xl md:text-3xl font-display font-semibold">What You Could Be Making</h2>
           <div className="mt-8 grid gap-4 md:grid-cols-3">
             <div className="bg-card border border-border p-6 rounded-md">
               <div className="font-display font-bold text-3xl md:text-4xl text-ink">$500</div>
-              <p className="mt-2 text-[15px] text-slate-body">Average value of a transaction lost to a missed call</p>
+              <p className="mt-2 text-[15px] text-slate-body">Average value of one transaction you win by answering</p>
             </div>
             <div className="bg-card border border-border p-6 rounded-md">
               <div className="font-display font-bold text-3xl md:text-4xl text-ink">34.8%</div>
               <p className="mt-2 text-[15px] text-slate-body">Of after-hours callers show real buying intent — they're not just browsing</p>
             </div>
             <div className="bg-card border border-border p-6 rounded-md">
-              <div className="font-display font-bold text-3xl md:text-4xl text-ink">$25,000/month</div>
-              <p className="mt-2 text-[15px] text-slate-body">Estimated revenue lost to missed after-hours calls, for a business taking 500 calls/month at a $500 average transaction value</p>
+              <div className="font-display font-bold text-3xl md:text-4xl text-ink">Up to $25,000/month</div>
+              <p className="mt-2 text-[15px] text-slate-body">What a business taking 500 calls a month at a $500 average transaction value could be making from after-hours callers who reach voicemail today</p>
             </div>
           </div>
           <p className="mt-6 text-sm text-slate-body/70">Source: NextPhone, AI Receptionist Statistics 2026 (analysis of 1.4M+ business calls).</p>
-          <p className="mt-3 font-semibold text-ink">Speed wins the deal. Speed without an answer loses it.</p>
+          <p className="mt-3 font-semibold text-ink">Speed wins the deal. Every answered call is a chance to make money.</p>
         </section>
       }
       features={[
@@ -78,11 +78,11 @@ export const Route = createFileRoute("/services/ai-receptionist")({
         { q: "What happens if the AI can't handle a call?", a: "It transfers to a live person with the caller's context already summarized. Nothing falls through the cracks." },
         { q: "Can it integrate with our existing phone system?", a: "Yes. It runs alongside most VoIP and PBX systems, or we can pair it with our UCaaS platform for a unified deployment." },
         { q: "How much does it cost compared to a live receptionist?", a: "The average receptionist salary in Canada is $20.41/hour — roughly $42,500/year base, or $51,000–$53,000/year once you factor in statutory benefits and payroll costs (Indeed Canada, 2026). Our AI receptionist usually runs 30–60% less than that on a fully-loaded basis, and it scales with call volume, not headcount — so you're never paying for quiet hours." },
-        { q: "Is this a good fit for a small business?", a: "Especially so. Small businesses lose more revenue per missed call than mid-market companies. An AI receptionist pays for itself faster the smaller you are." },
+        { q: "Is this a good fit for a small business?", a: "Especially so. Every new customer is a bigger share of a small business's revenue, so each answered call moves the needle further. An AI receptionist pays for itself faster the smaller you are." },
       ]}
       cta={{
-        title: "Find out what your voicemail is costing you.",
-        body: "We'll listen to a sample of your recent inbound calls, estimate what you're losing to voicemail, and show you what an AI receptionist would handle differently.",
+        title: "Find out what you could be making.",
+        body: "We'll listen to a sample of your recent inbound calls, estimate what you could be making from the calls that go to voicemail today, and show you what an AI receptionist would handle differently.",
         primary: "See What Missed Calls Are Costing You",
       }}
     />

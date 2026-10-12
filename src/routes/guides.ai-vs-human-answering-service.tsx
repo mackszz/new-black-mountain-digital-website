@@ -151,7 +151,7 @@ function Guide() {
         <section className="container-page py-16">
           <h2 className="text-3xl md:text-4xl font-display font-semibold max-w-3xl">24/7 availability without a night shift</h2>
           <p className="mt-4 text-slate-body max-w-3xl">
-            A human phone answering service can absolutely staff a 24/7 desk — you'll just pay a premium for evenings, weekends, and holidays, and quality drops on the graveyard shift the same way it does in any call center. An AI receptionist doesn't have a graveyard shift. Call quality at 3 a.m. is identical to call quality at 10 a.m., and every after-hours voicemail your business was quietly losing becomes a qualified lead in your CRM the next morning.
+            A human phone answering service can absolutely staff a 24/7 desk — you'll just pay a premium for evenings, weekends, and holidays, and quality drops on the graveyard shift the same way it does in any call center. An AI receptionist doesn't have a graveyard shift. Call quality at 3 a.m. is identical to call quality at 10 a.m., and every after-hours call that used to reach voicemail becomes a qualified lead in your CRM the next morning.
           </p>
         </section>
 
@@ -224,13 +224,13 @@ function Guide() {
           { q: "What happens when the AI can't handle a call?", a: "It transfers to a live person on your team with the caller's context already summarized on screen. Nothing falls through the cracks, and the human never has to ask 'so, what were you calling about?'" },
           { q: "Does an AI receptionist integrate with our existing phone system?", a: "Yes. It runs alongside most VoIP and PBX systems as a front-end call handler, or it can be paired with a UCaaS platform for a fully unified deployment. Number porting is straightforward across Canadian carriers." },
           { q: "Is this compliant with Canadian privacy law?", a: "Deployments are PIPEDA-aligned with Canadian-hosted storage options, configurable retention, consent capture for call recording, and a full audit trail on every interaction. For regulated industries we tailor the disclosures and retention policies to your requirements." },
-          { q: "What's the smallest business this makes sense for?", a: "If you're losing even a few qualified inbound calls per week to voicemail — or paying a real person to answer a phone that mostly rings with routine questions — an AI receptionist typically pays for itself in the first quarter." },
+          { q: "What's the smallest business this makes sense for?", a: "If even a few qualified inbound calls per week reach voicemail today — or paying a real person to answer a phone that mostly rings with routine questions — an AI receptionist typically pays for itself in the first quarter." },
         ]}
       />
 
       <CTABand
         title="See what your calls would look like on AI."
-        body="We'll listen to a sample of your recent inbound calls, estimate what you're losing to voicemail, and show you exactly what an AI receptionist would handle differently — and what still belongs with a human."
+        body="We'll listen to a sample of your recent inbound calls, estimate what you could be making from the calls that go to voicemail today, and show you exactly what an AI receptionist would handle differently — and what still belongs with a human."
       />
     </PageShell>
   );

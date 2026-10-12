@@ -27,7 +27,7 @@ export const Route = createFileRoute("/services/business-broadband")({
         <section className="container-page pb-16 md:pb-24">
           <div className="bg-stone border-l-4 border-peak-deep p-6 md:p-8 rounded-md">
             <p className="max-w-3xl text-[15px] text-charcoal">
-              Downtime costs the average small business <span className="font-semibold text-ink">$137&ndash;$427 per minute</span> &mdash; roughly <span className="font-semibold text-ink">$8,200&ndash;$25,600 an hour</span> &mdash; in lost transactions and idle staff time (widely-cited SMB downtime benchmark data, 2026). Our 4-hour MTTR and enforceable SLA credits exist to keep that number as close to zero as possible.
+              Downtime costs the average small business <span className="font-semibold text-ink">$137&ndash;$427 per minute</span> &mdash; roughly <span className="font-semibold text-ink">$8,200&ndash;$25,600 an hour</span> &mdash; in stalled transactions and idle staff time (widely-cited SMB downtime benchmark data, 2026). Our 4-hour MTTR and enforceable SLA credits exist to keep that number as close to zero as possible.
             </p>
           </div>
         </section>
