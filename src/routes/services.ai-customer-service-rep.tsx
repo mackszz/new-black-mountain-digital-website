@@ -72,7 +72,7 @@ export const Route = createFileRoute("/services/ai-customer-service-rep")({
         { q: "Do I need to replace my current help desk?", a: "No. The AI rep sits in front of your existing tools — Zendesk, Freshdesk, Salesforce, or custom — and only escalates the tickets that need a human." },
       ]}
       cta={{
-        title: "See what your support team could stop doing — and what it's costing you not to.",
+        title: "See what your support team could stop doing — and what they could do with those hours back.",
         body: "Book a 30-minute assessment. We'll audit your ticket volume, identify the top deflection candidates, and give you a realistic estimate of what an AI rep can and can't handle.",
         primary: "Get My Free Ticket-Deflection Estimate",
       }}

@@ -89,7 +89,7 @@ export const Route = createFileRoute("/services/cx")({
         { q: "Can it handle both inbound and outbound?", a: "Yes. Inbound queuing, outbound campaigns, and blended agents on one platform — with the compliance controls (DNC, throttling, disclosure) that regulated outbound requires." },
       ]}
       cta={{
-        title: "Get customer conversations under one roof — and cut what fragmentation is costing you.",
+        title: "Get customer conversations under one roof — and turn every hour your team spends untangling tools into time spent winning customers.",
         body: "Bring us your current tool sprawl and volume patterns. We'll design a CX architecture that consolidates what you have and adds what you're missing.",
         primary: "Get My Free CX Cost Assessment",
       }}
