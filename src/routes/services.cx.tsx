@@ -28,7 +28,7 @@ export const Route = createFileRoute("/services/cx")({
           <div className="bg-stone border-l-4 border-peak-deep p-6 md:p-8 rounded-md">
             <h2 className="text-2xl md:text-3xl font-display font-semibold">What Better Routing Is Worth</h2>
             <p className="mt-5 max-w-3xl text-[15px] text-charcoal">
-              A fully-loaded contact-center agent typically costs <span className="font-semibold text-ink">$52,000&ndash;$78,000 a year</span> (Forrester Total Cost Analysis, 2025) &mdash; roughly <span className="font-semibold text-ink">$25&ndash;$37/hour</span>. Shaving even <span className="font-semibold text-ink">30 seconds</span> off average handle time across a 10-agent team taking 40 calls/day each adds up to real monthly savings in agent time alone &mdash; before counting the customers you keep instead of losing to a bad transfer. Ask us to run the number for your team's actual volume.
+              A fully-loaded contact-center agent typically costs <span className="font-semibold text-ink">$52,000&ndash;$78,000 a year</span> (Forrester Total Cost Analysis, 2025) &mdash; roughly <span className="font-semibold text-ink">$25&ndash;$37/hour</span>. Shaving even <span className="font-semibold text-ink">30 seconds</span> off average handle time across a 10-agent team taking 40 calls/day each adds up to real monthly savings in agent time alone &mdash; before counting the added customers you keep and win with better routing. Ask us to run the number for your team's actual volume.
             </p>
           </div>
         </section>
