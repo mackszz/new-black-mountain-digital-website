@@ -90,7 +90,7 @@ function Home() {
           </div>
           <div className="mt-4">
             <Link to="/services/ai-receptionist" className="inline-flex items-center gap-1 text-sm text-peak hover:text-peak-deep transition-colors">
-              See What Missed Calls Are Costing You <ArrowRight className="h-3.5 w-3.5" />
+              See What You Could Be Making <ArrowRight className="h-3.5 w-3.5" />
             </Link>
           </div>
         </div>
