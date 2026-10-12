@@ -151,7 +151,7 @@ function Guide() {
         <section className="container-page py-16">
           <h2 className="text-3xl md:text-4xl font-display font-semibold max-w-3xl">24/7 availability without a night shift</h2>
           <p className="mt-4 text-slate-body max-w-3xl">
-            A human phone answering service can absolutely staff a 24/7 desk — you'll just pay a premium for evenings, weekends, and holidays, and quality drops on the graveyard shift the same way it does in any call center. An AI receptionist doesn't have a graveyard shift. Call quality at 3 a.m. is identical to call quality at 10 a.m., and every after-hours voicemail your business was quietly losing becomes a qualified lead in your CRM the next morning.
+            A human phone answering service can absolutely staff a 24/7 desk — you'll just pay a premium for evenings, weekends, and holidays, and quality drops on the graveyard shift the same way it does in any call center. An AI receptionist doesn't have a graveyard shift. Call quality at 3 a.m. is identical to call quality at 10 a.m., and every after-hours call that used to reach voicemail becomes a qualified lead in your CRM the next morning.
           </p>
         </section>
 
