@@ -27,7 +27,7 @@ export const Route = createFileRoute("/")({
 });
 
 const pillars = [
-  { icon: Cpu, title: "AI Services", body: "Voice agents and receptionists that answer, qualify, and resolve — 24/7.", to: "/services/ai-customer-service-rep", cta: "See what you could be making" },
+  { icon: Cpu, title: "AI Services", body: "Voice agents and receptionists that answer, qualify, and resolve — 24/7.", to: "/services/ai-customer-service-rep", cta: "See how AI answers your calls" },
   { icon: ShieldCheck, title: "Security", body: "Network, endpoint, and physical security engineered against real threats.", to: "/services/network-cyber-security", cta: "Get a free vulnerability scan" },
   { icon: PhoneCall, title: "Voice", body: "UCaaS and contact-center platforms that make every conversation count.", to: "/services/ucaas", cta: "Compare your current phone costs" },
   { icon: Wifi, title: "Connectivity", body: "Carrier-grade broadband and SD-WAN with the SLAs to back them up.", to: "/services/business-broadband", cta: "Get a real quote, not a sales sheet" },
