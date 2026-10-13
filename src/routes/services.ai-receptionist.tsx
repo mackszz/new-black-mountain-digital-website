@@ -79,7 +79,6 @@ export const Route = createFileRoute("/services/ai-receptionist")({
       cta={{
         title: "Find out what you could be making.",
         body: "We'll listen to a sample of your recent inbound calls, estimate what you could be making from the calls that go to voicemail today, and show you what an AI receptionist would handle differently.",
-        primary: "See What You Could Be Making",
       }}
     />
   ),
