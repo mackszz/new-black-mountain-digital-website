@@ -76,10 +76,6 @@ function Home() {
             AI, security, voice, connectivity, and cabling — delivered by a single accountable partner
             to SMBs and mid-market businesses across Ontario and Canada.
           </p>
-          <p className="mt-6 font-medium text-peak max-w-2xl">
-            The average business could be making up to $25,000 more every month from the after-hours
-            calls that go to voicemail today. See what yours could be making.
-          </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <Link to="/contact" className="inline-flex items-center gap-2 rounded-md bg-ink px-6 py-3.5 text-sm font-medium text-white hover:bg-charcoal transition-colors">
               Talk to an Expert <ArrowRight className="h-4 w-4" />
