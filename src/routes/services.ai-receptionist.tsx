@@ -32,7 +32,7 @@ export const Route = createFileRoute("/services/ai-receptionist")({
       afterHero={
         <section className="container-page pb-16 md:pb-24">
           <h2 className="text-2xl md:text-3xl font-display font-semibold">What You Could Be Making</h2>
-          <div className="mt-8 grid gap-4 md:grid-cols-3">
+          <div className="mt-8 grid gap-4 md:grid-cols-2">
             <div className="bg-card border border-border p-6 rounded-md">
               <div className="font-display font-bold text-3xl md:text-4xl text-ink">$500</div>
               <p className="mt-2 text-[15px] text-slate-body">Average value of one transaction you win by answering</p>
@@ -40,10 +40,6 @@ export const Route = createFileRoute("/services/ai-receptionist")({
             <div className="bg-card border border-border p-6 rounded-md">
               <div className="font-display font-bold text-3xl md:text-4xl text-ink">34.8%</div>
               <p className="mt-2 text-[15px] text-slate-body">Of after-hours callers show real buying intent — they're not just browsing</p>
-            </div>
-            <div className="bg-card border border-border p-6 rounded-md">
-              <div className="font-display font-bold text-3xl md:text-4xl text-ink">Up to $25,000/month</div>
-              <p className="mt-2 text-[15px] text-slate-body">What a business taking 500 calls a month at a $500 average transaction value could be making from after-hours callers who reach voicemail today</p>
             </div>
           </div>
           <p className="mt-6 text-sm text-slate-body/70">Source: NextPhone, AI Receptionist Statistics 2026 (analysis of 1.4M+ business calls).</p>
